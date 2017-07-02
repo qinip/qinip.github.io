@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sister Dew</title>
+  <subtitle>Let your tender wisdom be mine.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://qinip.github.io/"/>
+  <updated>2017-07-02T22:36:35.000Z</updated>
+  <id>https://qinip.github.io/</id>
+  
+  <author>
+    <name>Hitoshi</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>张维迎：自由是一种责任</title>
+    <link href="https://qinip.github.io/2017/07/02/%E5%BC%A0%E7%BB%B4%E8%BF%8E17/"/>
+    <id>https://qinip.github.io/2017/07/02/张维迎17/</id>
+    <published>2017-07-02T21:21:14.000Z</published>
+    <updated>2017-07-02T22:36:35.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;7月1日，北京大学国家发展研究院2017届毕业典礼在百年讲堂隆重举行。当刘震
+    
+    </summary>
+    
+      <category term="文存" scheme="https://qinip.github.io/categories/%E6%96%87%E5%AD%98/"/>
+    
+    
+      <category term="张维迎" scheme="https://qinip.github.io/tags/%E5%BC%A0%E7%BB%B4%E8%BF%8E/"/>
+    
+      <category term="北大" scheme="https://qinip.github.io/tags/%E5%8C%97%E5%A4%A7/"/>
+    
+      <category term="政经" scheme="https://qinip.github.io/tags/%E6%94%BF%E7%BB%8F/"/>
+    
+      <category term="演讲" scheme="https://qinip.github.io/tags/%E6%BC%94%E8%AE%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>故事接力</title>
+    <link href="https://qinip.github.io/2017/07/02/%E4%BC%97%E5%8C%85%E6%95%85%E4%BA%8B/"/>
+    <id>https://qinip.github.io/2017/07/02/众包故事/</id>
+    <published>2017-07-02T11:22:57.000Z</published>
+    <updated>2017-07-02T19:48:58.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;新搭的Blog不知写点什么好，不如来玩一个游戏，大家一起来接力编故事。&lt;br
+    
+    </summary>
+    
+      <category term="找乐儿" scheme="https://qinip.github.io/categories/%E6%89%BE%E4%B9%90%E5%84%BF/"/>
+    
+    
+      <category term="fiction" scheme="https://qinip.github.io/tags/fiction/"/>
+    
+      <category term="众包" scheme="https://qinip.github.io/tags/%E4%BC%97%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>插件测试</title>
+    <link href="https://qinip.github.io/2017/06/30/%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    <id>https://qinip.github.io/2017/06/30/插件测试/</id>
+    <published>2017-07-01T05:42:52.000Z</published>
+    <updated>2017-07-01T10:07:56.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;下图来自Flickr&quot;&gt;&lt;a href=&quot;#下图来自Flickr&quot;
+    
+    </summary>
+    
+    
+      <category term="test" scheme="https://qinip.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://qinip.github.io/2017/06/30/hello-world/"/>
+    <id>https://qinip.github.io/2017/06/30/hello-world/</id>
+    <published>2017-06-30T10:13:05.000Z</published>
+    <updated>2017-06-30T10:13:05.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; 
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
