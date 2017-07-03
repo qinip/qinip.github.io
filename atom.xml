@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://qinip.github.io/"/>
-  <updated>2017-07-02T22:36:35.000Z</updated>
+  <updated>2017-07-03T08:18:47.000Z</updated>
   <id>https://qinip.github.io/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>通用Todo</title>
+    <link href="https://qinip.github.io/2017/07/03/%E9%80%9A%E7%94%A8todo/"/>
+    <id>https://qinip.github.io/2017/07/03/通用todo/</id>
+    <published>2017-07-03T07:56:23.000Z</published>
+    <updated>2017-07-03T08:18:47.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;运动&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;st
+    
+    </summary>
+    
+      <category term="日常" scheme="https://qinip.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+      <category term="反求诸己" scheme="https://qinip.github.io/tags/%E5%8F%8D%E6%B1%82%E8%AF%B8%E5%B7%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>张维迎：自由是一种责任</title>

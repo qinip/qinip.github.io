@@ -12,7 +12,7 @@
     
     <title>
         
-            About Me | 
+            通用Todo | 
         
         Sister Dew
     </title>
@@ -38,7 +38,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Hitoshi">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,反求诸己">
 
     <!-- Site Verification -->
     
@@ -67,15 +67,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://qinip.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="About Me | Sister Dew">
+    <meta property="og:title" content="通用Todo | Sister Dew">
     <meta property="og:image" content="/img/favicon.ico" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="反求诸己"> 
 
+    
+        <meta property="article:published_time" content="7月 03, 2017" />
+        <meta property="article:modified_time" content="7月 03, 2017" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="About Me | Sister Dew">
+    <meta name="twitter:title" content="通用Todo | Sister Dew">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.ico">
     <meta name="twitter:card" content="summary_large_image" />
@@ -83,13 +86,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://qinip.github.io/about/index.html" />
+        <link rel="canonical" href="https://qinip.github.io/2017/07/03/通用todo/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Sister Dew",
+        "logo": "/img/favicon.ico"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Hitoshi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.ico"
+        },
+        "description": "Let your tender wisdom be mine."
+    },
+    "headline": "通用Todo",
+    "url": "https://qinip.github.io/2017/07/03/通用todo/index.html",
+    "datePublished": "7月 03, 2017",
+    "dateModified": "7月 03, 2017",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qinip.github.io"
+    }
+}
+</script>
 
 
     
@@ -289,6 +322,43 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+    
+
+
+
+
 
 <!-- Layouts -->
 
@@ -315,7 +385,7 @@
         
     
             <p class="article-headline-p">
-                About Me
+                通用Todo
             </p>
         </div>
 
@@ -334,7 +404,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Hitoshi</strong>
-        <span>6月 30, 2017</span>
+        <span>7月 03, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -356,7 +426,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB4UlEQVR42u3aS27DMAwFwNz/0u22QOH4kVQ+tsarIE5kjReExKfHzy2uBwYGBgYGBgbG1zAe8fX394dD/7ubj5nPAQMDY0/GSWkLHpmMWf3+5AVhYGBsyciL7NHd5F/JaNEcMDAwMJ5OLlnePV8gYmBgYLyn4B5Nq7oQxMDAwFi7ic3L7nzT+8K9OAYGxgUZvWBg7eeP5RsYGBhfzygfcWjFnMlS8q1nRjAwMC7FqC7sqtTnkUB1W4uBgbEnI2945SFleUKt5h0GBsbOjKR0Jkco8gMWeeHGwMDYkzHZjpYfHHzfLLgYGBgbMCZN/DzanBT6crsNAwPjdozqNjIBVIt4EkJgYGBgzMti76BYs/GHgYGxDSNvgfWCyepRsMJLxMDA2IZR3azOC3S1vGJgYGAkIWKvobbqWAYGBgZG3lxLFnbVolk92IGBgbEnI5/6ZGtafREYGBgYOWBSaleNg4GBgVG9evFALxZtRpgYGBi3Y0y2o9UNcD5mM9/AwMC4NSOPByaTyF9BFCRgYGBsyejFk6ui0OrBDgwMDIxqSc0nmseiLyy4GBgYGzDywjq5e1L0MTAwtmRUH19lT8LOxe02DAyMCzLmwUA11FzQmMPAwNiGcd0LAwMDAwMDA+Oj1y/nsqZLlc7FdgAAAABJRU5ErkJggg==">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYklEQVR42u3aUbKDMAgF0O5/0++tQHuBGLVz/Op01HLykVDg8/fT1wcPDw8PDw8PD+9hvE98HT1V/T5/thkbHh4e3hbel6324J48lOp7JrHh4eHh7eQlYZ1/Ptrue0tQjQ0PDw/vLbzk/ny7x8PDw/ttXp7sVo8QPDw8vLfw8kDzEsPLai14eHh4MS9vMu3/vLW/h4eHhxfwyiNNBy+tts3y94yGrvDw8PAu4FUbVL2E+Ev5IF6IKB48PDy8i3mTMkG1iHAe3GSAFQ8PD+8u3vnr8kWZJ99JM6x8MODh4eEt4k2S3WooyfIlC42Hh4d3Ly/Z1nsl1+qIai+BxsPDw3sOLykQTFr+k1LvstEBPDw8vAEvYZwP6PdS88mvH6b7eHh4eFt4vWbVZPRqkkwvLkbg4eHhLeoQVdPl6haf31MeOMDDw8O7mFf9q5+XJHrIeWEXDw8P72pesgXnofQWKCltLEup8fDw8Bbx8kS22vqajybk7TQ8PDy8nbw8Ie4dDJMEunyM4eHh4d3KK4w6FZ/N31B+Cg8PD28jLw+0mvImqXn116OhKzw8PLyLeb0UNl+mpAjSI+Hh4eHdxTsPpTpwkI9n5e8pD13h4eHhXcCrXkmK3Bs1qC4lHh4e3l28eSmhupXn6XUvscbDw8Pbw8tT6t7Wv6rYMRq6wsPDw7uAl2/Q1QGp3tLk5Qw8PDy85/N6ZYsk3N5IFh4eHt5beNUxgvz7ZIGakxF4eHh4S3n56EDeAEtS87xUER1IeHh4eFt48xJAtbnVGzuIjhM8PDy8i3m/d+Hh4eHh4eHh4T3g+gc0dVPv2BOgUgAAAABJRU5ErkJggg==">
     
 </ul>
     
@@ -369,7 +439,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/反求诸己/">反求诸己</a>
     </ul>
     
 
@@ -385,7 +455,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=About Me&url=https://qinip.github.io/about/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=通用Todo&url=https://qinip.github.io/2017/07/03/通用todo/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -394,7 +464,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=About Me&url=https://qinip.github.io/about/index.html&via=Hitoshi" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=通用Todo&url=https://qinip.github.io/2017/07/03/通用todo/index.html&via=Hitoshi" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -403,7 +473,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://qinip.github.io/about/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://qinip.github.io/2017/07/03/通用todo/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -412,7 +482,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=https://qinip.github.io/about/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://qinip.github.io/2017/07/03/通用todo/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -436,13 +506,12 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>以前朋友们都叫我小强。</p>
-<p>Aquarius. </p>
-<p>Single dorky male killing time in South California.</p>
-<p>PhD candidate of political philosophy. Taking the labor of love of studying a renaissance devil. </p>
-<p>A reliable driver, a fabulous cook, a delightful friend, a man safe with his secrets. </p>
-<img src="https://farm5.staticflickr.com/4037/4415510519_07c220367e.jpg" width="500" alt="Sunshine in the rain">
-<p>Email: <a href="mailto:deus.dew@gmail.com" target="_blank" rel="external">deus.dew@gmail.com</a></p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><strong>运动</strong></li>
+<li><strong>cheer up</strong></li>
+<li><strong>早睡</strong></li>
+</ul>
+<p><div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/l4FGHHXf2axmPnPpK" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen></iframe></div></p><p><a href="https://giphy.com/gifs/fargofx-red-green-l4FGHHXf2axmPnPpK" target="_blank" rel="external">via GIPHY</a></p><p></p>
 
     
 
@@ -460,8 +529,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'https://qinip.github.io/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'https://qinip.github.io/about/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'https://qinip.github.io/2017/07/03/通用todo/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://qinip.github.io/2017/07/03/通用todo/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -496,6 +565,14 @@
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2017/07/02/张维迎17/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
@@ -684,6 +761,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
