@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://qinip.github.io/"/>
-  <updated>2020-07-05T07:39:26.502Z</updated>
+  <updated>2019-05-01T19:05:26.135Z</updated>
   <id>https://qinip.github.io/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Test 2020</title>
-    <link href="https://qinip.github.io/2020/07/05/Test-2020/"/>
-    <id>https://qinip.github.io/2020/07/05/Test-2020/</id>
-    <published>2020-07-05T07:36:42.000Z</published>
-    <updated>2020-07-05T07:39:26.502Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;By default, Hexo uses the post title a
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>小剥皮的枪盾阵</title>
@@ -275,6 +256,27 @@
       <category term="fiction" scheme="https://qinip.github.io/tags/fiction/"/>
     
       <category term="众包" scheme="https://qinip.github.io/tags/%E4%BC%97%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>插件测试</title>
+    <link href="https://qinip.github.io/2017/06/30/%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    <id>https://qinip.github.io/2017/06/30/插件测试/</id>
+    <published>2017-07-01T05:42:52.000Z</published>
+    <updated>2017-07-01T10:07:56.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;下图来自Flickr&quot;&gt;&lt;a href=&quot;#下图来自Flickr&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="https://qinip.github.io/tags/test/"/>
     
   </entry>
   
