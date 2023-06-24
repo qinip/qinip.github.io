@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite-url/cn/Test23/</loc>
-    <lastmod>2023-06-23</lastmod>
+    <loc>http://example.com/cn/Text22/</loc>
+    <lastmod>2023-06-24</lastmod>
   </url>
   <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://example.com/cn/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2020-04-17</lastmod>
   </url>
   <url>
-    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://example.com/en/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2020-04-17</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/cn/5_1/</loc>
+    <lastmod>2019-05-01</lastmod>
   </url>
 </urlset> 
