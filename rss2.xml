@@ -15,61 +15,8 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Eddy Ji&#39;s blog</description>
-    <pubDate>Sat, 24 Jun 2023 00:50:00 GMT</pubDate>
+    <pubDate>Fri, 17 Apr 2020 06:34:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>Text22</title>
-      <link>http://example.com/cn/Text22/</link>
-      <guid>http://example.com/cn/Text22/</guid>
-      <pubDate>Sat, 24 Jun 2023 00:50:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;Insert-image&quot;&gt;&lt;a href=&quot;#Insert-image&quot; class=&quot;headerlink&quot; title=&quot;Insert image&quot;&gt;&lt;/a&gt;Insert image&lt;/h1&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="http://example.com/categories/test/">test</category>
-      
-      
-      
-      <comments>http://example.com/cn/Text22/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Hexo-Theme-LiveMyLife</title>
-      <link>http://example.com/cn/Hexo-Theme-LiveMyLife/</link>
-      <guid>http://example.com/cn/Hexo-Theme-LiveMyLife/</guid>
-      <pubDate>Fri, 17 Apr 2020 06:34:17 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;移植 &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Hux Blog&lt;/a&gt; 的主题，感谢 &lt;a href=&quot;https://github.com/Huxpro&quot;&gt;Huxpro&lt;/a&gt;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="http://example.com/categories/Hexo-Theme-LiveMyLife/">Hexo-Theme-LiveMyLife</category>
-      
-      
-      <category domain="http://example.com/tags/Hexo-Theme-LiveMyLife/">Hexo-Theme-LiveMyLife</category>
-      
-      
-      <comments>http://example.com/cn/Hexo-Theme-LiveMyLife/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>Hexo-Theme-LiveMyLife</title>
@@ -105,20 +52,15 @@
       <guid>http://example.com/cn/5_1/</guid>
       <pubDate>Wed, 01 May 2019 07:39:00 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;p&gt;注意：多图。内容可能含有少量剧透。&lt;/p&gt;
-&lt;img src=&quot;cn/5_1/51_21562-afb4c2f0708e0be8.jpg&quot;</description>
-          
-        
+      <description>两军对阵，还是要遵循真实世界里冷兵器作战的规律和逻辑。那小剥皮的枪盾阵，符合这些规律和逻辑吗？</description>
       
       
       
       
-      <category domain="http://example.com/categories/%E6%89%BE%E4%B9%90%E5%84%BF/">找乐儿</category>
+      <category domain="http://example.com/categories/4fun/">4fun</category>
       
+      
+      <category domain="http://example.com/tags/%E6%9D%83%E6%B8%B8/">权游</category>
       
       
       <comments>http://example.com/cn/5_1/#disqus_thread</comments>

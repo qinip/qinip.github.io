@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-06-24T00:50:00.000Z</updated>
+  <updated>2020-04-17T06:34:17.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,55 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Text22</title>
-    <link href="http://example.com/cn/Text22/"/>
-    <id>http://example.com/cn/Text22/</id>
-    <published>2023-06-24T00:50:00.000Z</published>
-    <updated>2023-06-24T00:50:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Insert-image&quot;&gt;&lt;a href=&quot;#Insert-image&quot; class=&quot;headerlink&quot; title=&quot;Insert image&quot;&gt;&lt;/a&gt;Insert image&lt;/h1&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="test" scheme="http://example.com/categories/test/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-LiveMyLife</title>
-    <link href="http://example.com/cn/Hexo-Theme-LiveMyLife/"/>
-    <id>http://example.com/cn/Hexo-Theme-LiveMyLife/</id>
-    <published>2020-04-17T06:34:17.000Z</published>
-    <updated>2020-04-17T06:34:17.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;移植 &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Hux Blog&lt;/a&gt; 的主题，感谢 &lt;a href=&quot;https://github.com/Huxpro&quot;&gt;Huxpro&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo-Theme-LiveMyLife" scheme="http://example.com/categories/Hexo-Theme-LiveMyLife/"/>
-    
-    
-    <category term="Hexo-Theme-LiveMyLife" scheme="http://example.com/tags/Hexo-Theme-LiveMyLife/"/>
-    
-  </entry>
   
   <entry>
     <title>Hexo-Theme-LiveMyLife</title>
@@ -99,19 +50,14 @@
     <updated>2019-05-01T07:39:00.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;注意：多图。内容可能含有少量剧透。&lt;/p&gt;
-&lt;img src=&quot;cn/5_1/51_21562-afb4c2f0708e0be8.jpg&quot;</summary>
-        
-      
+    <summary type="html">两军对阵，还是要遵循真实世界里冷兵器作战的规律和逻辑。那小剥皮的枪盾阵，符合这些规律和逻辑吗？</summary>
     
     
     
-    <category term="找乐儿" scheme="http://example.com/categories/%E6%89%BE%E4%B9%90%E5%84%BF/"/>
+    <category term="4fun" scheme="http://example.com/categories/4fun/"/>
     
+    
+    <category term="权游" scheme="http://example.com/tags/%E6%9D%83%E6%B8%B8/"/>
     
   </entry>
   

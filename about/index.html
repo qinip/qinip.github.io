@@ -284,21 +284,12 @@
 
           
           
+          
+          
           <li>
             <a href="/categories/">
               
               CATEGORIES
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/archive/">
-              
-              ARCHIVES
               
               
             </a>
@@ -327,6 +318,15 @@
           </li>
           
           
+          
+          <li>
+            <a href="/archive/">
+              
+              ARCHIVES
+              
+              
+            </a>
+          </li>
           
           
 
@@ -642,18 +642,6 @@
   <ul>
     
     
-  	  <a href="../cn/Text22/">
-	 
-      <li>Text22</li>
-    </a>
-    
-    
-  	  <a href="../cn/Hexo-Theme-LiveMyLife/">
-	 
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
-    
   	  <a href="../en/Hexo-Theme-LiveMyLife/">
 	 
       <li>Hexo-Theme-LiveMyLife</li>
@@ -677,16 +665,12 @@
 <div class="widget">
   <ul>
     
-    <a href="/categories/#找乐儿">
-      <li>找乐儿</li>
-    </a>
-    
     <a href="/categories/#Hexo-Theme-LiveMyLife">
       <li>Hexo-Theme-LiveMyLife</li>
     </a>
     
-    <a href="/categories/#test">
-      <li>test</li>
+    <a href="/categories/#4fun">
+      <li>4fun</li>
     </a>
     
   </ul>
@@ -699,7 +683,7 @@
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2023/06/">June 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2020/04/">April 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2019/05/">May 2019</a><span class="archive-list-count">1</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2020/04/">April 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2019/05/">May 2019</a><span class="archive-list-count">1</span></li></ul>
 </div>
 
 
@@ -710,6 +694,8 @@
 <section>
   <h5><a href="/tags/">FEATURED TAGS</a></h5>
   <div class="tags">
+    
+    
     
     
     
@@ -1223,5 +1209,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
