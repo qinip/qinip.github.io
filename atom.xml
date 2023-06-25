@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【AI编译】纽约客：为什么俄罗斯精英们认为普京的战争注定要失败？</title>
+    <title>【AI編譯】紐約客：為什麼俄羅斯精英們認為普京的戰爭注定要失敗？</title>
     <link href="http://example.com/cn/062423/"/>
     <id>http://example.com/cn/062423/</id>
     <published>2023-06-24T23:26:09.000Z</published>
@@ -28,7 +28,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;（AI编译，原文：&lt;a href=&quot;https://www.newyorker.com/news/q-and-a/why-russian-elites-think-putins-war-is-doomed-to-fail&quot;&gt;Why Russian Élites Think</summary>
+    <summary type="html">&lt;p&gt;（AI編譯，原文：&lt;a href=&quot;https://www.newyorker.com/news/q-and-a/why-russian-elites-think-putins-war-is-doomed-to-fail&quot;&gt;Why Russian Élites Think</summary>
         
       
     
@@ -42,6 +42,8 @@
     <category term="ukraine" scheme="http://example.com/tags/ukraine/"/>
     
     <category term="insurrection" scheme="http://example.com/tags/insurrection/"/>
+    
+    <category term="by_ai" scheme="http://example.com/tags/by-ai/"/>
     
   </entry>
   
