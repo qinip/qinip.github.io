@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-04-17T06:34:17.000Z</updated>
+  <updated>2023-06-24T23:26:09.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【AI编译】纽约客：为什么俄罗斯精英们认为普京的战争注定要失败？</title>
+    <link href="http://example.com/cn/062423/"/>
+    <id>http://example.com/cn/062423/</id>
+    <published>2023-06-24T23:26:09.000Z</published>
+    <updated>2023-06-24T23:26:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;（AI编译，原文：&lt;a href=&quot;https://www.newyorker.com/news/q-and-a/why-russian-elites-think-putins-war-is-doomed-to-fail&quot;&gt;Why Russian Élites Think</summary>
+        
+      
+    
+    
+    
+    <category term="文存" scheme="http://example.com/categories/%E6%96%87%E5%AD%98/"/>
+    
+    
+    <category term="russia" scheme="http://example.com/tags/russia/"/>
+    
+    <category term="ukraine" scheme="http://example.com/tags/ukraine/"/>
+    
+    <category term="insurrection" scheme="http://example.com/tags/insurrection/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo-Theme-LiveMyLife</title>

@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+<head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end -->
+  <!-- Google Analytics -->
+  
+
+  <!-- Baidu Tongji -->
+  
+
+  <!-- Baidu Push -->
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Eddy Ji&#39;s blog"/>
+  <meta name="keyword" content="politics, ai, data science, philosophy, film,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/favicon.ico"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css"/>
+    <link rel="stylesheet" href="/css/widget.css"/>
+    <link rel="stylesheet" href="/css/rocket.css"/>
+    <link rel="stylesheet" href="/css/signature.css"/>
+    <link rel="stylesheet" href="/css/catalog.css"/>
+    <link rel="stylesheet" href="/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://example.com/cn/062423/">
+  <title>
+    
+      【AI编译】纽约客：为什么俄罗斯精英们认为普京的战争注定要失败？ - Jousting Jester
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="atom.xml" title="The Jousting Jester" type="application/atom+xml">
+<link rel="alternate" href="rss2.xml" title="The Jousting Jester" type="application/rss+xml">
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+
+	<body ontouchstart="" class="body--light body--dark">
+
+
+		<!-- ThemeColor -->
+		
+		<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'dark';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+		
+
+		<!-- Gitter -->
+		
+
+		<!-- Navigation (contains search)-->
+		<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">The Jousting Jester</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+		<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+		<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('/img/header_img/micky.JPG');
+      --intro-header-background-image-url-post: url('rostov2.webp');
+      --intro-header-background-image-url-page: url('/rostov2.webp');
+    }
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/micky.JPG');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('rostov2.webp');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/rostov2.webp');
+    }
+
+    header.intro-header {
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('rostov2.webp'); */
+      
+    }
+
+    
+  </style>
+
+
+
+
+
+<header class="intro-header">
+  <!-- Signature -->
+  <div id="signature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#russia" title="russia">russia</a>
+              
+              <a class="tag" href="/tags/#ukraine" title="ukraine">ukraine</a>
+              
+              <a class="tag" href="/tags/#insurrection" title="insurrection">insurrection</a>
+              
+            </div>
+            <h1>【AI编译】纽约客：为什么俄罗斯精英们认为普京的战争注定要失败？</h1>
+            <h2 class="subheading">对立的派别正在争夺权力，因为该国正在经历一场没有明确出路的危机</h2>
+            <span class="meta">
+              Posted by Eddy Ji on
+              2023-06-24
+            </span>
+
+
+            
+            
+
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- waveoverlay start -->
+  <div class="preview-overlay">
+    <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+      </defs>
+      <g class="preview-parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+        <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+      </g>
+    </svg>
+  </div>
+  <!-- waveoverlay end -->
+  
+
+</header>
+
+
+
+		<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>（AI编译，原文：<a target="_blank" rel="noopener" href="https://www.newyorker.com/news/q-and-a/why-russian-elites-think-putins-war-is-doomed-to-fail">Why Russian Élites Think Putin’s War Is Doomed to Fail</a>）</p>
+<img src="cn/062423/title.png" class="" title>
+
+<h2 id="概要-Summary"><a href="#概要-Summary" class="headerlink" title="概要 Summary"></a>概要 Summary</h2><ul>
+<li><p>Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has been analyzing how Russian politics have been shaped by the invasion of Ukraine. She argues that Putin’s regime may outlive him due to the drastic changes the war has brought to the domestic situation in Russia. </p>
+<blockquote>
+<p>卡内基俄罗斯欧亚中心的高级研究员塔蒂亚娜·斯塔诺瓦亚一直在分析乌克兰的入侵是如何塑造俄罗斯政治的。她认为，由于战争给俄罗斯的国内局势带来的剧变，普京的政权可能会比他本人更长寿。</p>
+</blockquote>
+</li>
+<li><p>Putin, once a strong leader with a clear plan, vision, and resources to secure the state’s stability, now appears misinformed and hesitant. He is failing to provide a reassuring strategy for how Russia will get out of this crisis. </p>
+<blockquote>
+<p>曾经是一个有着清晰计划、远见和保障国家稳定的资源的强大领导者的普京，现在看起来信息不足，犹豫不决。他未能提供一个令人放心的策略，说明俄罗斯如何走出这场危机。</p>
+</blockquote>
+</li>
+<li><p>The overall feeling among Russian élites is that the attempts to win are doomed to fail. This sentiment is held not just by the élite, who view the war as a catastrophic mistake, but also those who believe that Ukraine does not exist as a state and must be “de-Nazified”—which, simply put, means become pro-Russian. </p>
+<blockquote>
+<p>俄罗斯精英的总体感觉是，试图赢得胜利的尝试注定会失败。这种情绪不仅仅是由精英们持有，他们认为战争是一个灾难性的错误，还有那些认为乌克兰并不存在作为一个国家，必须被“去纳粹化”的人——简单地说，就是变得亲俄。</p>
+</blockquote>
+</li>
+<li><p>Putin is becoming too “insane” for the progressive-minded groups that understand the restrictions Russia will face, due to sanctions, on its technological and scientific development and too soft for those who believe that Russia must opt for total mobilization (militarily and economically) and bring all its might down on Ukraine. </p>
+<blockquote>
+<p>对于那些理解俄罗斯将因制裁而面临的技术和科学发展限制的开明思想团体来说，普京变得太“疯狂”，而对于那些认为俄罗斯必须选择全面动员（军事和经济）并将所有力量投入乌克兰的人来说，他太过软弱。</p>
+</blockquote>
+</li>
+<li><p>There is a growing deficit of Putin in Putin’s regime. If he does not retake the initiative, the next crisis the regime faces may cost him dearly. </p>
+<blockquote>
+<p>普京的政权中普京的缺失正在增加。如果他不重新采取主动，那么政权面临的下一场危机可能会让他付出惨重的代价。</p>
+</blockquote>
+</li>
+<li><p>Putin has allowed a certain amount of criticism of his policies from what might be called his right: the head of the Wagner Group, pro-war bloggers who want more ruthlessness against Ukraine, the security services, who want a stricter autocracy.</p>
+<blockquote>
+<p>普京允许他的政策受到一定程度的批评，这可能被称为他的右翼：瓦格纳集团的头，希望对乌克兰更无情的亲战博客，安全服务，他们希望有更严格的专制。</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="原文-Original-Article"><a href="#原文-Original-Article" class="headerlink" title="原文 Original Article"></a>原文 Original Article</h2><p>For the past year, Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has been analyzing how Russian politics have been shaped by the invasion of Ukraine. Stanovaya has been explaining the Russian political environment to foreign audiences since 2018, when she founded R. Politik, a political-analysis firm, which is now in France. She has recently argued that stalled progress on the battlefield has led Russian élites to become increasingly disenchanted with Putin’s leadership.</p>
+<blockquote>
+<p>在过去的一年里，卡内基俄罗斯欧亚中心的高级研究员塔蒂亚娜-斯坦诺瓦亚一直在分析俄罗斯政治是如何被入侵的乌克兰所塑造的。自2018年以来，斯坦诺瓦亚一直在向外国听众解释俄罗斯的政治环境，当时她成立了R.Politik，这是一家政治分析公司，现在在法国。她最近认为，战场上的进展停滞不前，导致俄罗斯上层人士对普京的领导越来越不满意。</p>
+</blockquote>
+<p>I reached out to Stanovaya, who is more comfortable corresponding in English over e-mail; we exchanged several rounds of questions and answers. Our conversation, edited for length and clarity, is below.</p>
+<blockquote>
+<p>我联系了斯坦诺瓦娅，她更愿意通过电子邮件用英语交流；我们交换了几轮问题和答案。以下是我们的对话，为保证长度和清晰度而进行了编辑。</p>
+</blockquote>
+<p>In it, we discuss why Putin allows criticism of his policies from the nationalist right, what effective sanctions might actually accomplish, and what the meteoric rise of Yevgeny Prigozhin, the founder of the Wagner Group, explains about Putin’s Russia.</p>
+<blockquote>
+<p>其中，我们讨论了普京为何允许民族主义右派批评他的政策，有效的制裁实际上可能达到什么效果，以及瓦格纳集团的创始人叶夫根尼-普里戈津的飞速崛起对普京的俄罗斯有何解释。</p>
+</blockquote>
+<h3 id="You-recently-wrote-that-Putin-is-more-vulnerable-than-most-people-think-Why-is-that"><a href="#You-recently-wrote-that-Putin-is-more-vulnerable-than-most-people-think-Why-is-that" class="headerlink" title="You recently wrote that Putin is more vulnerable than most people think. Why is that?"></a><strong>You recently <a target="_blank" rel="noopener" href="https://www.foreignaffairs.com/russian-federation/putins-peril">wrote</a> that Putin is more vulnerable than most people think. Why is that?</strong></h3><blockquote>
+<p><strong>你最近写道，普京比大多数人认为的更加脆弱。这是为什么呢？</strong></p>
+</blockquote>
+<p>We tend to equate Putin’s regime with Putin himself. It is often heard that if Putin disappears, his regime will fall. However, I caution against this assumption, as the regime may prove to be more resilient, drawn-out, and potentially radical than Putin himself. It depends on the circumstances of Putin’s departure, but in my opinion his regime may outlive him. This is not just due to natural reasons related to age and health but also because of the way the war has drastically changed the domestic situation in Russia.</p>
+<blockquote>
+<p>我们倾向于将普京的政权与普京本人等同起来。人们经常听说，如果普京消失了，他的政权就会垮台。然而，我对这一假设提出警告，因为事实证明，该政权可能比普京本人更有弹性，更持久，更有可能更激进。这取决于普京离开的情况，但在我看来，他的政权可能会比他的寿命更长。这不仅仅是由于与年龄和健康有关的自然原因，也是由于战争极大地改变了俄罗斯的国内形势。</p>
+</blockquote>
+<p>Putin, who was once a strong leader with a clear plan, vision, and resources to secure the state’s stability, now appears misinformed, hesitant. He is failing to provide a reassuring strategy for how Russia will get out of this crisis. If Putin had conquered Ukraine in the first months of the war, there would be no questions. Not only did he fail but he created a crisis with no clear way out. I am not saying that he does not have a vision, but the way he interacts with the élites and deals with military defeats fuels uncertainty and anxiety about Russia’s future.</p>
+<blockquote>
+<p>普京曾经是一个强有力的领导人，有明确的计划、愿景和资源来确保国家的稳定，现在却显得信息不畅，犹豫不决。他没能为俄罗斯如何走出这场危机提供一个令人放心的战略。如果普京在战争的头几个月就征服了乌克兰，那就不会有问题了。他不仅失败了，而且制造了一场没有明确出路的危机。我并不是说他没有远见，但他与上层人士互动和处理军事失败的方式助长了对俄罗斯未来的不确定性和焦虑感</p>
+</blockquote>
+<p>This was particularly acute from September to February, when Ukraine conducted a successful counter-offensive in the Kharkiv region, and the West showed firm intentions to supply Ukraine with weapons. Putin responded with anti-Western invectives and threats, sometimes with nuclear hints, but without any explicit road map of practical steps. Today, uncertainty has decreased due to the protracted stabilization of the front line, and there is growing doubt about Ukraine’s capacity to strategically change the military situation and reclaim its invaded territories. However, the over-all feeling among Russian élites is that the attempts to win are doomed to fail. This sentiment is not just held by the élite, who view the war as a catastrophic mistake, but also those who believe that Ukraine does not exist as a state and must be “de-Nazified”—which, simply put, means become pro-Russian.</p>
+<blockquote>
+<p>这种情况在9月至2月尤为严重，当时乌克兰在哈尔科夫地区进行了一次成功的反攻，而西方也表现出向乌克兰提供武器的坚定意图。普京以反西方的谩骂和威胁作为回应，有时还带有核暗示，但没有任何明确的实际步骤的路线图。今天，由于前线的长期稳定，不确定性已经减少，人们越来越怀疑乌克兰是否有能力从战略上改变军事局势，收回被入侵的领土。然而，俄罗斯上层人士的总体感觉是，争取胜利的尝试注定要失败。持有这种情绪的不仅仅是那些认为战争是灾难性错误的上层人士，还有那些认为乌克兰并不作为一个国家存在，必须 “去纳粹化”–简单地说，就是变得亲俄。</p>
+</blockquote>
+<p>Putin is becoming too “insane” for the progressive-minded groups that understand the restrictions Russia will face, due to sanctions, on its technological and scientific development and too soft for those who believe that Russia must opt for total mobilization (militarily and economically) and bring all its might down on Ukraine. Moreover, within the latter segment, there is a growing part of the élite who believe it is already too late, that Russia will have to pause the war to launch radical internal reforms with total élite purges, property redistribution, and the imposition of state ideology so that it can return to the war in better shape.</p>
+<blockquote>
+<p>对于那些了解俄罗斯因制裁而面临的技术和科学发展限制的进步人士来说，普京正变得过于 “疯狂”，而对于那些认为俄罗斯必须选择全面动员（军事上和经济上）并将其全部力量用于乌克兰的人士来说，普京则过于软弱。此外，在后一部分人中，有越来越多的精英认为已经太晚了，俄罗斯将不得不暂停战争，启动彻底的内部改革，对精英进行全面清洗，重新分配财产，并强制推行国家意识形态，以便它能够以更好的状态重返战场。</p>
+</blockquote>
+<p>Putin seems to be ignoring all of this. There is a growing deficit of Putin in Putin’s regime. If he does not retake the initiative, and I believe he will not because the situation to him seems not so bad, the next crisis the regime faces may cost him dearly.</p>
+<blockquote>
+<p>普京似乎对这一切视而不见。在普京的政权中，普京的赤字越来越大。如果他不重新掌握主动权，而且我相信他不会，因为对他来说情况似乎并不糟糕，那么该政权面临的下一次危机可能会让他付出沉重的代价。</p>
+</blockquote>
+<h3 id="Putin-has-allowed-a-certain-amount-of-criticism-of-his-policies-from-what-might-be-called-his-right-the-head-of-the-Wagner-Group-pro-war-bloggers-who-want-more-ruthlessness-against-Ukraine-the-security-services-who-you-say-in-your-piece-want-a-stricter-autocracy-Why"><a href="#Putin-has-allowed-a-certain-amount-of-criticism-of-his-policies-from-what-might-be-called-his-right-the-head-of-the-Wagner-Group-pro-war-bloggers-who-want-more-ruthlessness-against-Ukraine-the-security-services-who-you-say-in-your-piece-want-a-stricter-autocracy-Why" class="headerlink" title="Putin has allowed a certain amount of criticism of his policies from what might be called his right: the head of the Wagner Group, pro-war bloggers who want more ruthlessness against Ukraine, the security services, who you say in your piece want a stricter autocracy. Why?"></a><strong>Putin has allowed a certain amount of criticism of his policies from what might be called his right: the head of the Wagner Group, pro-war bloggers who want more ruthlessness against Ukraine, the security services, who you say in your piece want a stricter autocracy. Why?</strong></h3><blockquote>
+<p><strong>普京允许来自可能被称为他的权利的人对他的政策进行一定程度的批评：瓦格纳集团的负责人、希望对乌克兰采取更多无情手段的支持战争的博主、安全部门，你在文章中说他们希望有更严格的专制。为什么？</strong></p>
+</blockquote>
+<p>One of Putin’s main features, which we should not overlook, is his sincere belief in his historical “mission.” This means that his moves are not always about situational political maneuvering but sometimes about his conviction that he serves the state that he cultivates. It may seem to the Western audience that I am justifying or sympathizing with Putin, but, as an analyst, I try to understand the internal incentives, motivation, and logic of political figures. Whether we like it or not, Putin believes that he serves Russia’s national interests, even if the way he does it harms Russia more than it helps.</p>
+<blockquote>
+<p>普京的主要特点之一，我们不应忽视，就是他对自己的历史 “使命 “的真诚信念。这意味着，他的举动并不总是出于情势上的政治操纵，有时是出于他的信念，即他为自己培养的国家服务。在西方观众看来，我似乎是在为普京开脱或同情他，但是，作为一个分析家，我试图了解政治人物的内部动机、动力和逻辑。无论我们喜欢与否，普京认为他是为俄罗斯的国家利益服务的，即使他的方式对俄罗斯的伤害比帮助更大。</p>
+</blockquote>
+<p>Through this prism, he makes a clear distinction between a right and good opposition and a destructive and hostile opposition. If we look objectively, Yevgeny Prigozhin, with all his public activities during the year, has politically damaged the regime perhaps much more than Alexey Navalny, the jailed opposition leader, has. Prigozhin is much more politically dangerous. He has split élites, attacked the pillars of the regime, such as the army, and challenged Putin’s appointees, and even the Presidential administration, using his own armed militias, and his media allies. He has a much more radical agenda than is usually allowed to spread in the informational space.</p>
+<blockquote>
+<p>通过这个棱镜，他明确区分了正确和良好的反对派与破坏性和敌对性的反对派。如果我们客观地看，叶夫根尼-普里戈津在这一年中的所有公开活动，在政治上对政权的损害可能比被监禁的反对派领导人阿列克谢-纳瓦尔尼要大得多。普里戈津在政治上更加危险。他利用自己的武装民兵和媒体盟友，分裂了精英阶层，攻击了军队等政权的支柱，挑战了普京的任命，甚至是总统府。他有一个比通常允许在信息空间传播的更激进的议程。</p>
+</blockquote>
+<p>And yet, he remains untouchable, thanks only to Putin personally.</p>
+<blockquote>
+<p>然而，他仍然是不可触及的，这仅仅是由于普京个人。</p>
+</blockquote>
+<p>The main difference between Navalny and Prigozhin, in Putin’s eyes, is that the former has destructive intentions to ruin Russia and is often used as a tool in the hands of Russia’s strategic enemies—the West. Prigozhin, however destructive he may appear, is guided by pro-Russian priorities and best wishes. In other words, Putin sees Navalny as a betrayer and Prigozhin as a genuine patriot. The same is true of all the radically pro-war public on social networks.</p>
+<blockquote>
+<p>在普京眼里，纳瓦尔尼和普里戈津的主要区别在于，前者有破坏性的意图，想毁掉俄罗斯，并经常被俄罗斯的战略敌人–西方国家当作工具来使用。普利高津，无论他看起来多么具有破坏性，都是以亲俄罗斯的优先事项和良好愿望为指导。换句话说，普京认为纳瓦尔尼是一个背叛者，而普里戈津是一个真正的爱国者。社交网络上所有激进的亲战公众也是如此。</p>
+</blockquote>
+<p>The problem is that it is only Putin who sees things this way. For a significant part of the Russian mainstream élite, Prigozhin, together with “angry patriots,” as domestic-policy overseers in the Kremlin call them, represent a genuine threat that needs to be curtailed. This is another division between Putin and the élites. Many in the leadership believe that Prigozhin is dangerous for the regime, from technocrats who are just horrified by him, to the F.S.B., which consider him a threat. Yet Putin allows him to be. I would not exaggerate the level of Putin’s positive attitude toward Prigozhin, but he sees him as a genuine hero who is sometimes clumsy and goes too far, and needs to be reined in due to his often-emotional outbursts. But he is not an enemy, and deserves to have his own place in the system, regardless of what others think.</p>
+<blockquote>
+<p>问题是，只有普京这样看问题。对于俄罗斯主流精英阶层的很大一部分人来说，普里戈津和克里姆林宫的国内政策监督者所说的 “愤怒的爱国者 “一起，代表着真正的威胁，需要加以遏制。这是普京和上层人士之间的另一个分歧。领导层中的许多人认为普里戈津对政权是危险的，从对他感到恐惧的技术官僚到认为他是威胁的F.S.B.。但普京却允许他这样做。我不会夸大普京对普里戈津的积极态度，但他认为普里戈津是一个真正的英雄，他有时很笨拙，走得太远，由于他经常情绪失控，需要加以约束。但他不是敌人，不管别人怎么想，他应该在体制内有自己的位置。</p>
+</blockquote>
+<img src="cn/062423/rostov.jpeg" class="" title="rostov">
+
+<h3 id="In-March-there-emerged-what-appeared-to-be-a-leaked-phone-call-between-Russian-elites-complaining-about-Putin-You-recently-wrote-that-“the-affair-has-underscored-two-conflicting-trends-among-Russia’s-elites-The-first-is-growing-alarm-and-despair-and-a-sense-that-Putin-is-leading-the-country-over-a-precipice-to-imminent-doom-The-second-is-the-rising-stock-of-the-country’s-repressive-apparatus-and-the-patriotic-bloc-which-is-baying-for-blood-ever-more-loudly-with-its-calls-for-purges-and-even-greater-turning-of-the-screws-”-How-would-you-describe-these-blocs-and-what-they-want-How-do-they-differ-from-Putin-ideologically"><a href="#In-March-there-emerged-what-appeared-to-be-a-leaked-phone-call-between-Russian-elites-complaining-about-Putin-You-recently-wrote-that-“the-affair-has-underscored-two-conflicting-trends-among-Russia’s-elites-The-first-is-growing-alarm-and-despair-and-a-sense-that-Putin-is-leading-the-country-over-a-precipice-to-imminent-doom-The-second-is-the-rising-stock-of-the-country’s-repressive-apparatus-and-the-patriotic-bloc-which-is-baying-for-blood-ever-more-loudly-with-its-calls-for-purges-and-even-greater-turning-of-the-screws-”-How-would-you-describe-these-blocs-and-what-they-want-How-do-they-differ-from-Putin-ideologically" class="headerlink" title="In March, there emerged what appeared to be a leaked phone call between Russian élites complaining about Putin. You recently wrote that “the affair has underscored two conflicting trends among Russia’s élites. The first is growing alarm and despair, and a sense that Putin is leading the country over a precipice to imminent doom. The second is the rising stock of the country’s repressive apparatus and the patriotic bloc, which is baying for blood ever more loudly, with its calls for purges and even greater turning of the screws.” How would you describe these blocs and what they want? How do they differ from Putin ideologically?"></a><strong>In March, there emerged what appeared to be a leaked phone call between Russian élites complaining about Putin. You recently wrote that “the affair has underscored two conflicting trends among Russia’s élites. The first is growing alarm and despair, and a sense that Putin is leading the country over a precipice to imminent doom. The second is the rising stock of the country’s repressive apparatus and the patriotic bloc, which is baying for blood ever more loudly, with its calls for purges and even greater turning of the screws.” How would you describe these blocs and what they want? How do they differ from Putin ideologically?</strong></h3><blockquote>
+<p><strong>3月，出现了似乎是俄罗斯上层人士之间抱怨普京的泄露的电话。你最近写道：”这一事件突出了俄罗斯精英阶层中两种相互冲突的趋势。首先是越来越多的惊慌和绝望，感觉普京正在带领这个国家越过悬崖，走向即将到来的厄运。第二种是国家的镇压机器和爱国集团不断增加，他们更加大声地叫嚣着流血，呼吁进行清洗和更大程度地转动螺丝。”您如何描述这些集团以及他们想要什么？他们在意识形态上与普京有什么不同？</strong></p>
+</blockquote>
+<p>This division between what I call technocrats and patriots is very conditional but helps to display a larger picture of what is going on in the Russian élite. The first trend is composed of technocrats, civic senior officials, and most of the regional governors, who can only passively observe what is going on. They silently—or sometimes with necessary, ostentatious patriotism—execute Putin’s orders, without being allowed to discuss strategic-level politics, geopolitics, or foreign affairs. They do not have their own agenda, ideological vision, or ambitions. They are very pragmatic and would not play a hero, often preferring to adapt and mimic the environment.</p>
+<blockquote>
+<p>我所说的技术官僚和爱国者之间的这种划分是非常有条件的，但有助于展示俄罗斯上层社会正在发生的更大的情况。第一个趋势是由技术官僚、公民高级官员和大多数地区长官组成，他们只能被动地观察正在发生的事情。他们默默地–或有时带着必要的、浮夸的爱国主义–执行普京的命令，不允许讨论战略层面的政治、地缘政治或外交事务。他们没有自己的议程、意识形态愿景或野心。他们非常务实，不会扮演英雄，往往喜欢适应和模仿环境。</p>
+</blockquote>
+<p>The second segment, which we can call “patriots,” represents a visible and sometimes loud mainstream. They have their own manifold agendas and conservative ideology that are much more radical than Putin’s. We are talking about the heads of the security services; United Russia, the ruling party; those mentioned above, such as Prigozhin; and military correspondents. Unlike the first segment, they have their own diverse recipes for how to get out of the crisis, how to deal with Ukraine, and how to arrange things in domestic policy and the economy. Many of them stand for martial law, total mobilization, putting the economy on a war footing, and a harsher approach to internal “enemies” and “traitors.” Many of them are simply opportunists, existing only to please Putin, guess and meet his needs, and demonstrate their political value.</p>
+<blockquote>
+<p>第二部分，我们可以称之为 “爱国者”，代表了一个明显的、有时是响亮的主流。他们有自己多方面的议程和保守的意识形态，比普京的要激进得多。我们说的是安全部门的负责人；执政党 “统一俄罗斯”；上面提到的那些人，如普里戈津；以及军事记者。与第一部分不同的是，他们对如何摆脱危机、如何处理乌克兰问题以及如何安排国内政策和经济方面的事情都有自己不同的方案。他们中的许多人主张戒严、全面动员、将经济置于战争状态，以及对内部 “敌人 “和 “叛徒 “采取更严厉的做法。他们中的许多人只是机会主义者，他们的存在只是为了取悦普京，猜测和满足他的需求，并展示他们的政治价值。</p>
+</blockquote>
+<p>They are incrementally dragging the country into a more repressive state. The radicalization of domestic policy gains its own momentum and has not been deliberately organized from a single, united center of decision-making. This has even become a headache for domestic-policy overseers who have to figure out how to hold down “patriots” and lower their eagerness. All this repression and tightening of screws that we saw before and especially during the war are the result of internal bureaucratic and political cacophony. There isn’t a particular decision-making center in the hypothetical “Kremlin” where a limited group of people meet to decide in advance who to prosecute, sentence, or arrest. Instead, this repressive process is decentralized, involving many players—although with a dominant role for the F.S.B. Most high-profile cases are of course to be agreed with Putin (who is usually informed after the fact), but not all the cases. This trend has gained momentum and is progressing independently of Putin’s intentions, which are in any case pro-repression, particularly as he delegates these decisions.</p>
+<blockquote>
+<p>他们正逐步将国家拖入一个更加压抑的状态。国内政策的激进化获得了自己的动力，并没有刻意从一个单一的、统一的决策中心组织。这甚至已经成为国内政策监督者的头疼问题，他们必须想办法压制 “爱国者”，降低他们的急切性。我们在战前，尤其是在战争期间看到的所有这些压制和紧箍咒都是内部官僚和政治喧嚣的结果。在假设的 “克里姆林宫 “中，并没有一个特定的决策中心，在那里，有限的一群人开会，事先决定起诉、判刑或逮捕谁。相反，这种镇压过程是分散的，涉及许多参与者–尽管联邦安全局起着主导作用。大多数引人注目的案件当然要与普京商定（他通常在事后被告知），但不是所有的案件。这一趋势已经取得了势头，并在独立于普京的意图之外取得进展，而普京的意图在任何情况下都是支持压制的，特别是在他授权这些决定的时候。</p>
+</blockquote>
+<p>This may create an impression of a well-managed policy, but only due to the fact that it moves in the same direction. Here is an example: last year, Prigozhin persuaded Putin to allow the recruitment of prisoners to fight in the war. The decision was taken without due analysis and consultation with other bodies. Putin instructed his administration to assist Prigozhin, to open the doors to the prisons for him. This caused outrage among several bodies, including the Justice Ministry, which was formally responsible for the penitentiary system, the Prosecutor General’s office, and the F.S.B. All of them had spent years imprisoning criminals who were now being passed into the hands of an unmanageable “private businessman” with his own army and weapons. There was a risk that they could turn up on the Russian streets in six months like nothing had happened. It took several months to persuade Putin to stop this practice and to pass the job of recruitment to the Defense Ministry, which now operates in prisons much more selectively.</p>
+<blockquote>
+<p>这可能会给人一种管理良好的政策印象，但只是由于它朝着同一个方向发展。这里有一个例子：去年，普里戈津劝说普京允许招募囚犯参战。这个决定是在没有适当分析和与其他机构协商的情况下做出的。普京指示他的政府协助普里戈津，为他打开监狱的大门。这引起了一些机构的愤怒，包括正式负责监狱系统的司法部、总检察长办公室和F.S.B.，他们都花了多年时间监禁罪犯，现在却被移交给一个拥有自己的军队和武器的无法管理的 “私人商人”。他们有可能在六个月后出现在俄罗斯的街头，就像什么都没发生过一样。花了几个月的时间说服普京停止这种做法，并将招募工作交给国防部，国防部现在更有选择性地在监狱中运作。</p>
+</blockquote>
+<p>This shows how this part of the élite, the “patriots,” who want Russia to win in Ukraine, have contradictory approaches and visions for how and at what price the state can do it. But these two segments, “technocrat-executors” and “patriots,” have a common ground—they share the feeling that Putin’s political behavior, against the backdrop of the war, is not adequate to the challenges that Russia is facing.</p>
+<blockquote>
+<p>这表明，希望俄罗斯在乌克兰取得胜利的这部分精英，即 “爱国者”，对于国家如何以及以何种代价取得胜利，有着相互矛盾的方法和愿景。但这两部分人，”技术官僚-执行者 “和 “爱国者”，有一个共同点–他们都觉得普京在战争背景下的政治行为不足以应对俄罗斯面临的挑战。</p>
+</blockquote>
+<h3 id="At-least-according-to-the-limited-public-opinion-data-we-have-these-concerns-about-Putin-are-not-shared-by-the-Russian-public-Why-do-you-think-this-elite-concern-about-Putin-has-not-trickled-down-if-you-believe-that-the-surveys-are-accurate"><a href="#At-least-according-to-the-limited-public-opinion-data-we-have-these-concerns-about-Putin-are-not-shared-by-the-Russian-public-Why-do-you-think-this-elite-concern-about-Putin-has-not-trickled-down-if-you-believe-that-the-surveys-are-accurate" class="headerlink" title="At least according to the limited public-opinion data we have, these concerns about Putin are not shared by the Russian public. Why do you think this élite concern about Putin has not trickled down, if you believe that the surveys are accurate?"></a><strong>At least according to the limited public-opinion data we have, these concerns about Putin are not shared by the Russian public. Why do you think this élite concern about Putin has not trickled down, if you believe that the surveys are accurate?</strong></h3><blockquote>
+<p><strong>至少根据我们掌握的有限的民意数据，俄罗斯公众对普京的这些担忧并不认同。如果你相信这些调查是准确的，你认为为什么这种上层人士对普京的担忧没有流传下来?</strong></p>
+</blockquote>
+<p>Despite concerns that we cannot truly gauge opinions in Russia, as individuals may hide their sentiments due to fear or dishonesty, I believe that we still have access to relatively accurate sociological data. This data is provided by independent pollsters such as the Levada Center. Their findings generally align with the data from state-controlled pollsters. As a result, we have a picture of Russian society that is predominantly pro-war, loyal to the authorities, and far from protesting. However, this is not necessarily due to positive support for Putin but, rather, a rational choice to lean on the state as the most capable political institution to protect against perceived external threats that a significant portion of Russian society believes are out to destroy Russia.</p>
+<blockquote>
+<p>尽管有人担心我们无法真正衡量俄罗斯的意见，因为个人可能因为恐惧或不诚实而隐藏自己的情绪，但我认为我们仍然可以获得相对准确的社会学数据。这些数据是由独立的民调机构，如列瓦达中心提供的。他们的调查结果通常与国家控制的民调机构的数据一致。因此，我们得到的俄罗斯社会图景主要是支持战争，忠于当局，而远离抗议活动。然而，这并不一定是由于对普京的积极支持，而是一种理性的选择，即依靠国家这个最有能力的政治机构来保护自己免受所认为的外部威胁，而俄罗斯社会的很大一部分人认为这些威胁是要摧毁俄罗斯。</p>
+</blockquote>
+<p>The difference between society and the élite is that élites are more directly involved in the war, either as subjects of sanctions, participants in decision-making, or by allocating resources to war efforts. The cost of military defeat would be devastating for them. In contrast, society as a whole has less to lose and is more fearful of a potential <em>nato</em> military attack than a Russian defeat in the war, although the two are related. While the élites view defeat as a direct threat to their personal security—with many potentially being considered accomplices of war crimes—and their future, society was largely removed from the military agenda and decision-making process, at least before the September mobilization.</p>
+<blockquote>
+<p>社会和贵族之间的区别在于，贵族更直接地参与到战争中，或者作为制裁的对象，参与决策，或者为战争工作分配资源。军事失败的代价对他们来说将是毁灭性的。相比之下，整个社会的损失较小，对北约潜在的军事攻击比对俄罗斯在战争中的失败更为恐惧，尽管这两者是相关的。虽然上层人士认为失败是对他们个人安全的直接威胁–许多人有可能被视为战争罪的帮凶–以及他们的未来，但至少在9月动员之前，社会在很大程度上脱离了军事议程和决策过程。</p>
+</blockquote>
+<p>Now, as the Kremlin increasingly adopts a public strategy of portraying Russia as a victim, the greater the perceived external threat, the more societal support the authorities will receive. The Kremlin effectively exploits these fears by promoting an ultra-patriotic state ideology, a cult of state, and by reintroducing elements of Soviet ideology and institutions. This leads to an increase in mass denunciations and an atmosphere of intolerance toward any hint of anti-war sentiment.</p>
+<blockquote>
+<p>现在，随着克里姆林宫越来越多地采取将俄罗斯描绘成受害者的公开策略，人们认为的外部威胁越大，当局就越能获得社会支持。克里姆林宫通过宣传极端爱国的国家意识形态、国家崇拜，以及重新引入苏联意识形态和体制的元素，有效地利用了这些恐惧。这导致了大众谴责的增加和对任何反战情绪暗示的不容忍气氛。</p>
+</blockquote>
+<p>This trend also signifies a creeping militarization of society, which in turn intimidates the élites and leaves no room for any form of disagreement. In my view, the problem with the Russian regime is not that it may collapse from within but that it could transform into something monstrous—ruthless, inhumane, with pervasive digital control and a reign of fear. This is because the price of conceding, especially for élites, would mean the end of Russia as it is currently known.</p>
+<blockquote>
+<p>这种趋势也标志着社会的军事化正在悄悄进行，这反过来又恐吓了上层人士，使任何形式的分歧都没有空间。在我看来，俄罗斯政权的问题不在于它可能从内部崩溃，而在于它可能转变为某种畸形的东西–无情的、不人道的、普遍的数字控制和恐惧的统治。这是因为，让步的代价，尤其是对上层人士而言，将意味着目前所知的俄罗斯的终结。</p>
+</blockquote>
+<h3 id="You-have-referred-to-Putin-as-“misinformed”-and-“hesitant-”-And-you-have-said-that-he-finds-the-current-situation-“not-so-bad-”-Elsewhere-we-have-read-about-how-isolated-he-is-Why-do-you-think-he-is-failing-to-reassure-elites-and-why-is-he-unable-to-get-good-information"><a href="#You-have-referred-to-Putin-as-“misinformed”-and-“hesitant-”-And-you-have-said-that-he-finds-the-current-situation-“not-so-bad-”-Elsewhere-we-have-read-about-how-isolated-he-is-Why-do-you-think-he-is-failing-to-reassure-elites-and-why-is-he-unable-to-get-good-information" class="headerlink" title="You have referred to Putin as “misinformed” and “hesitant.” And you have said that he finds the current situation “not so bad.” Elsewhere we have read about how isolated he is. Why do you think he is failing to reassure élites, and why is he unable to get good information?"></a><strong>You have referred to Putin as “misinformed” and “hesitant.” And you have said that he finds the current situation “not so bad.” Elsewhere we have read about how isolated he is. Why do you think he is failing to reassure élites, and why is he unable to get good information?</strong></h3><blockquote>
+<p><strong>你提到普京是 “消息不灵通 “和 “犹豫不决”。你还说，他认为目前的情况 “不那么糟糕”。在其他地方，我们读到了他是如何被孤立的。你认为他为什么不能让上层人士放心，以及他为什么不能获得好的信息？</strong></p>
+</blockquote>
+<p>We should differentiate between two things here. Firstly, how Putin appears to élites, and secondly, how well-informed he truly is. He appears misinformed and hesitant to many in the Russian élite, including high-profile bureaucrats. However, the situation is more complex. While it is true that Putin’s preparation for war and the assumptions made by him and the decision-makers were deeply flawed and erroneous, he is a fast learner. But his awareness is not always consistent and a lot depends on the subject.</p>
+<blockquote>
+<p>在这里，我们应该区分两件事。首先，普京在上层人士眼里是怎样的，其次，他真正了解的情况如何。在俄罗斯上层社会的许多人看来，他似乎信息不灵，犹豫不决，包括高调的官僚。然而，情况更为复杂。虽然普京的战争准备以及他和决策者的假设确实有很大的缺陷和错误，但他是一个快速学习者。但他的认识并不总是一致的，而且很多时候取决于主题。</p>
+</blockquote>
+<p>Regarding the economic issues—something he has always found boring and willingly delegates—he has been overly optimistic, even inspired by the prospect of an economic breakthrough, while underestimating long-term risks. He also believes that people genuinely love and support him, sharing his main narratives, even though this support is, as I mentioned earlier, more rational and calculated. In Russia, one can often hear something like, “Putin is a corrupt thief, but we will deal with him after the war; now is not the time for political disputes.” Another example: Putin genuinely believes Russia has many friends among Western élites and societies, as well as in the anti-American world. He thinks the world is on the verge of a major shift, with the current international order about to collapse.</p>
+<blockquote>
+<p>关于经济问题–他一直觉得很无聊，并心甘情愿地委托他人处理–他一直过于乐观，甚至被经济突破的前景所鼓舞，而低估了长期风险。他还认为，人们是真心爱戴和支持他，认同他的主要叙事，尽管这种支持正如我前面提到的，更多的是理性和计算。在俄罗斯，人们经常可以听到这样的话：”普京是个腐败的小偷，但我们会在战后处理他；现在不是政治纠纷的时候”。另一个例子：普京真正相信俄罗斯在西方精英和社会中，以及在反美世界中拥有许多朋友。他认为，世界正处于重大转变的边缘，目前的国际秩序即将崩溃。</p>
+</blockquote>
+<p>Putin can be adaptive and mindful; he knows when to wait, calculate, and make measured decisions. He still has access to objective information, albeit sometimes with significant delays. The problem with Putin is that he has developed powerful filters over time, a belief-system fortress that naturally determines who can reach him and what information can permeate. He self-censors due to his beliefs, causing his inner circle to self-censor, too, to avoid negative feedback. The only mechanism that still effectively provides alternative information is internal conflicts: the F.S.B. denounces the Defense Ministry and figures like Prigozhin; Prigozhin denounces military figures; the Federal Protective Service denounces the F.S.B., and so on. There is no centralized system of information delivery, but as long as people can still reach Putin to complain about their opponents, he will be relatively informed.</p>
+<blockquote>
+<p>普京能够适应和注意；他知道何时等待、计算和做出有分寸的决定。他仍然有机会获得客观信息，尽管有时会有明显的延迟。普京的问题是，随着时间的推移，他已经形成了强大的过滤器，这是一个信念系统的堡垒，自然决定了谁可以接触到他，什么信息可以渗透进来。由于他的信念，他进行自我审查，导致他的内部圈子也进行自我审查，以避免负面反馈。唯一还能有效提供替代信息的机制是内部冲突：联邦安全局谴责国防部和普里戈津等人物；普里戈津谴责军方人物；联邦保护局谴责联邦安全局，等等。虽然没有集中的信息传递系统，但只要人们还能联系到普京，抱怨他们的对手，他就会相对知情。</p>
+</blockquote>
+<p>However, this doesn’t necessarily lead to high-quality decision-making; it’s more like a seesaw. At one point, Prigozhin succeeds in delivering information and gains Putin’s favor, which contributed to Sergey Surovikin’s appointment to lead the war effort last fall. Then, it’s Valery Gerasimov’s turn—and Surovikin got demoted.</p>
+<blockquote>
+<p>然而，这并不一定导致高质量的决策；它更像是一个跷跷板。有一次，普里戈津成功地提供了信息，并获得了普京的青睐，这有助于谢尔盖-苏罗维金在去年秋天被任命为战争工作的领导。然后，轮到瓦列里-格拉西莫夫了–苏洛维金被降职。</p>
+</blockquote>
+<p>Putin has become quite ineffective at collective decision-making, having grown accustomed to assigning tasks to specific confidants who avoid collaborating with others. This results in flawed and inefficient implementation. He is becoming less isolated than we previously thought—the frequency of his meetings and trips has increased significantly. However, every public move is now staged to cater to Putin’s feelings and beliefs, so even when he ventures out, he only sees what he wants to see. Even if Putin tries to escape his isolation, the system in which he functions as a political figure has been growing increasingly closed, stewing in its own juice, and feeding his most distorted illusions. Over time, and as he ages, this will deteriorate dramatically. In previous years, élites struggled to gain access to Putin, but now they would rather avoid crossing him, viewing his personal involvement as more of a problem than a solution.</p>
+<blockquote>
+<p>普京在集体决策方面已经变得相当低效，他已经习惯于将任务分配给避免与他人合作的特定知情人。这导致了有缺陷和低效率的执行。他变得不像我们之前想象的那样孤立无援–他的会议和旅行的频率大大增加。然而，现在的每一次公开行动都是为了迎合普京的感受和信仰而进行的，所以即使他冒险出去，也只能看到他想看到的东西。即使普京试图摆脱自己的孤立状态，他作为政治人物发挥作用的系统也越来越封闭，在自己的汁液中炖煮，并喂养他最扭曲的幻想。随着时间的推移，以及他年龄的增长，这种情况将急剧恶化。前些年，精英们努力争取与普京接触，但现在他们宁愿避免与普京接触，认为他的个人参与是一个问题而不是一个解决方案。</p>
+</blockquote>
+<h3 id="Can-you-talk-a-little-bit-about-how-you-gather-information-and-do-your-work"><a href="#Can-you-talk-a-little-bit-about-how-you-gather-information-and-do-your-work" class="headerlink" title="Can you talk a little bit about how you gather information and do your work?"></a><strong>Can you talk a little bit about how you gather information and do your work?</strong></h3><blockquote>
+<p><strong>你能谈一谈你是如何收集信息和开展工作的吗？</strong></p>
+</blockquote>
+<p>This is a very understandable question, especially considering that I have been living abroad for a long time. I moved from Russia in 2010, and at that time, I was working at the Center for Political Technologies, one of the oldest think tanks in Russia, where I stayed until 2018. So, I was among the relatively few people who began working remotely long before the <em>covid</em> pandemic made it commonplace. The development of social networks has made it increasingly common and natural to stay in touch with people thousands of kilometres away. Moreover, social networks are not only about personal contacts but they also steadily replace traditional media, especially when it comes to Russia. You can find tons of exclusive, authentic sources, as well as discussions and opinions with a relatively low level of censorship, in the Russian political segment of Telegram. There are ultra-patriots and war correspondents who provide information on military matters, liberal-minded media, prominent experts, journalists, and politicians. People talk a lot, and the Kremlin, at least for now, allows Telegram to function because it has become a platform of intra-élite communications, including within the Kremlin itself. There are also many official and semi-official Telegram channels, which may not be very popular but publish documents, participate in discussions, and provide the opportunity to ask questions. So, ninety to ninety-five per cent of the information comes from open sources.</p>
+<blockquote>
+<p>这是一个非常容易理解的问题，特别是考虑到我已经在国外生活了很长时间。我在2010年从俄罗斯搬来，当时我在政治技术中心工作，这是俄罗斯最古老的智库之一，我在那里一直待到2018年。所以，我是相对较少的人之一，早在covid大流行使之成为普遍现象之前就开始远程工作。社交网络的发展使得与几千公里外的人保持联系变得越来越普遍和自然。此外，社交网络不仅是个人联系，而且还稳步取代了传统媒体，特别是在涉及到俄罗斯的时候。在Telegram的俄罗斯政治板块中，你可以找到大量独家、真实的消息来源，以及审查程度相对较低的讨论和意见。这里有提供军事信息的极端爱国者和战地记者，有思想自由的媒体，有著名专家、记者和政治家。人们议论纷纷，克里姆林宫至少在目前允许Telegram运作，因为它已经成为一个内部交流的平台，包括克里姆林宫内部。还有许多官方和半官方的Telegram频道，它们可能不是很受欢迎，但会发布文件，参与讨论，并提供提问的机会。因此，百分之九十到九十五的信息都来自于公开渠道。</p>
+</blockquote>
+<p>As for inside information, it is a highly contradictory question when it comes to Russian politics. On one hand, I have a sort of privilege—I am not considered a journalist in Russia, and I’m not one. Also, I am not perceived as being anti- or pro-Putin, so the authorities, or people close to them, can talk to me without fearing that it will be used against them or published somewhere. Especially with the war, high-profile figures in Russia have practically stopped talking to anyone from “hostile” organizations, such as opposition-minded media. I always say that the goal is not exclusive information but understanding. My primary intention and core principle is to remain objective and cultivate a cold-blooded attitude toward political figures. I know that it often angers those who are anti-Putin and who may consider my approach a way to justify Russian decision-making, but, for me, there are no “bad guys” or “good guys,” because there is no political agenda behind my research.</p>
+<blockquote>
+<p>至于内部信息，当涉及到俄罗斯政治时，这是一个非常矛盾的问题。一方面，我有一种特权–在俄罗斯我不被认为是记者，我也不是。另外，我不被认为是反普京或亲普京的人，所以当局或与他们关系密切的人可以与我交谈，而不用担心会被用来对付他们或在什么地方发表。特别是随着战争的发生，俄罗斯的高调人物实际上已经不再与来自 “敌对 “组织的任何人交谈，例如具有反对派思想的媒体。我总是说，目标不是独家信息，而是理解。我的主要意图和核心原则是保持客观，培养对政治人物的冷血态度。我知道这常常激怒那些反普京的人，他们可能认为我的方法是为俄罗斯的决策辩护，但是，对我来说，没有 “坏人 “或 “好人”，因为我的研究背后没有政治议程。</p>
+</blockquote>
+<p>The biggest problem with insiders is not how to reach them or make them talk; the problem is the nature of decision-making in Putin’s regime. Only very few, and always different, people know something about upcoming political or geopolitical decisions. You could have a great friendship with Mikhail Mishustin, the Russian Prime Minister, but if you asked him in the first days of January, 2020, when he headed the federal taxation service, whether Putin was preparing for a government reshuffle with Dmitry Medvedev’s removal, he would never confirm it. You could be the closest confidant of Sergey Lavrov, Russia’s foreign minister, but you would never get confirmation from him about Putin preparing to launch the war against Ukraine, because Lavrov simply wasn’t informed.</p>
+<blockquote>
+<p>内部人士的最大问题不是如何接触他们或让他们说话；问题是普京政权的决策性质。只有极少数人，而且总是不同的人，知道一些关于即将到来的政治或地缘政治的决定。你可以和俄罗斯总理米哈伊尔-米苏斯廷有很好的友谊，但如果你在2020年1月的头几天问他，当他领导联邦税务局时，普京是否准备随着德米特里-梅德韦杰夫的去职进行政府改组，他永远不会确认。你可以是俄罗斯外交部长谢尔盖-拉夫罗夫最亲密的知己，但你永远不会从他那里得到关于普京准备对乌克兰发动战争的确认，因为拉夫罗夫根本不知道。</p>
+</blockquote>
+<p>Access to insiders in Russia is more about subjective things, such as élite sentiments, expectations, hopes, and fears. With the war, the intensity of contacts has increased, as people have a growing number of questions about what is going on, and, simultaneously, shrinking access to the external world. There are far fewer foreign trips, if any, and very limited contacts with Westerners, and a growing hunger for alternative information that is neither “patriotic” nor oppositional, but simply objective.</p>
+<blockquote>
+<p>在俄罗斯接触内部人士更多的是主观的东西，如上层人士的情绪、期望、希望和恐惧。随着战争的发生，接触的强度增加了，因为人们对发生的事情有越来越多的疑问，同时，对外部世界的接触也在缩小。如果有的话，外国旅行也少得多，与西方人的接触也非常有限，人们越来越渴望获得既不 “爱国 “也不反对的另类信息，而仅仅是客观的。</p>
+</blockquote>
+<h3 id="The-Wall-Street-Journal-recently-reported-that-sanctions-may-finally-be-hurting-the-regime-Is-that-your-sense"><a href="#The-Wall-Street-Journal-recently-reported-that-sanctions-may-finally-be-hurting-the-regime-Is-that-your-sense" class="headerlink" title="The Wall Street Journal recently reported that sanctions may finally be hurting the regime. Is that your sense?"></a><strong>The <em>Wall Street Journal</em> recently <a target="_blank" rel="noopener" href="https://www.wsj.com/articles/russias-economy-is-starting-to-come-undone-431a2878">reported</a> that sanctions may finally be hurting the regime. Is that your sense?</strong></h3><blockquote>
+<p><strong>华尔街日报》最近报道说，制裁可能最终会伤害到该政权。这是你的感觉吗？</strong></p>
+</blockquote>
+<p>This is one of the most contradictory questions an expert has to hear, as it often implies wishful thinking, politics, and activism, rather than objective analysis. As a non-economist, I look at things from a political perspective. Currently, sanctions are consolidating élites rather than hurting them, and the same is true for society. In private conversations, ordinary Russians often express negative attitudes toward Putin, but when it comes to the war, they say that we must put aside our disagreements and stand together to face the external threat aimed at destroying their country. The rallying around the flag has kept the authorities’ approval ratings and support for the war consistently high.</p>
+<blockquote>
+<p>这是一个专家必须听到的最矛盾的问题之一，因为它往往意味着一厢情愿、政治和行动主义，而不是客观分析。作为一个非经济学家，我从政治角度看问题。目前，制裁正在巩固精英阶层，而不是伤害他们，社会也是如此。在私下交谈中，普通俄罗斯人经常对普京表达负面态度，但当涉及到战争时，他们说我们必须抛开分歧，团结起来面对旨在摧毁他们国家的外部威胁。围绕国旗的集会使当局的支持率和对战争的支持率持续走高。</p>
+</blockquote>
+<p>My colleagues and friends who often visit Moscow (unfortunately, I can’t take that risk, but my family is there) say that people are living as usual, and it seems like nothing has changed. Restaurants are open, shops are well-stocked, and there are choices. However, the atmosphere is extremely heavy and grim. While I acknowledge that sanctions are having an effect, they are not functioning as expected. One should not count on a coup, the rise of anti-Putin opposition, or the appearance of anti-war sentiments. Instead, the sanctions will push the regime to transform itself into its darkest state, create grounds for miscalculations, and decrease the competency of the bureaucracy, leading to irrational, mistaken choices. Together with the impossibility of winning the war as planned in the beginning, sanctions doom the regime to end badly.</p>
+<blockquote>
+<p>我的同事和经常访问莫斯科的朋友（不幸的是，我不能冒这个险，但我的家人在那里）说，人们照常生活，似乎没有什么变化。餐馆在营业，商店的货物充足，而且有选择。然而，气氛是极其沉重和灰暗的。虽然我承认制裁正在产生影响，但它们并没有像预期那样发挥作用。人们不应指望发生政变，反普京的反对派崛起，或出现反战情绪。相反，制裁将推动政权转变为最黑暗的状态，为误判创造理由，并降低官僚机构的能力，导致非理性的错误选择。再加上不可能像一开始计划的那样赢得战争，制裁注定了该政权会有糟糕的结局。</p>
+</blockquote>
+<p>I understand that you may ask how and when, but I don’t have an answer. It could take a long time, with a slow transition from Putin’s regime to institutional Putinism-without-Putin until the first serious internal crisis. There are many scenarios for how the situation may develop, including the speed of changes, the level of violence, or the nature of upheaval (whether it will come from élites or society). However, the current sanctions provide no path for this type of regime to turn back, to stop the war or consider genuine peace talks; it can only lead to further domestic degradation. It’s not so much about the emergence of anti-Putin opposition as it is about the deterioration of decision-making quality and self-destruction. But even in this regard, one should not be too optimistic, as the regime is quick to learn from its mistakes and adapt to unforeseen consequences. ♦</p>
+<blockquote>
+<p>我明白，你可能会问如何和何时，但我没有答案。这可能需要很长的时间，从普京的政权慢慢过渡到没有普京的体制性普京主义，直到第一次严重的内部危机发生。局势的发展有很多情况，包括变化的速度、暴力的程度或动乱的性质（是否来自精英阶层或社会）。然而，目前的制裁没有为这种类型的政权提供回头路，停止战争或考虑真正的和平谈判；它只能导致国内的进一步堕落。与其说是出现了反普京的反对派，不如说是决策质量的恶化和自我毁灭。但即使在这方面，人们也不应过于乐观，因为该政权很快就会从错误中吸取教训，并适应不可预见的后果。♦</p>
+</blockquote>
+<hr>
+<h2 id="WSJ-Documentary-Inside-Prigozhin’s-Wagner-Russia’s-Secret-War-Company"><a href="#WSJ-Documentary-Inside-Prigozhin’s-Wagner-Russia’s-Secret-War-Company" class="headerlink" title="WSJ Documentary: Inside Prigozhin’s Wagner, Russia’s Secret War Company"></a>WSJ Documentary: Inside Prigozhin’s Wagner, Russia’s Secret War Company</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/EMXnJMCoFYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+
+
+<h3 id="WSJ纪录片-《瓦格纳和普里戈津的前生今世》-中文字幕版-："><a href="#WSJ纪录片-《瓦格纳和普里戈津的前生今世》-中文字幕版-：" class="headerlink" title="WSJ纪录片 《瓦格纳和普里戈津的前生今世》| 中文字幕版 ："></a>WSJ纪录片 《瓦格纳和普里戈津的前生今世》| 中文字幕版 ：</h3><p>微博（@水山水山水山）：<a target="_blank" rel="noopener" href="https://m.weibo.cn/status/4916114456317443">微博 (weibo.cn)</a></p>
+<p>Bilibili转载：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Fz4y1p7u2">https://www.bilibili.com/video/BV1Fz4y1p7u2</a></p>
+<p>Youtube转载：<a target="_blank" rel="noopener" href="https://youtu.be/09ktOO-AWW8">https://youtu.be/09ktOO-AWW8</a></p>
+<hr>
+<h2 id="Zelenskyy-Masters-of-Russia-“control-nothing”"><a href="#Zelenskyy-Masters-of-Russia-“control-nothing”" class="headerlink" title="Zelenskyy: Masters of Russia “control nothing”"></a>Zelenskyy: Masters of Russia “control nothing”</h2><blockquote class="twitter-tweet"><p lang="en" dir="ltr">We all remember how the head of Russia threatened the world in 2021. He had some ultimatums, he was trying to show a kind of strength...<br><br>The year 2022 showed that he confused – confused his illusions and the lies he was fed with strength. They in the Kremlin are capable of… <a target="_blank" rel="noopener" href="https://t.co/rwOhLvQJAF">pic.twitter.com/rwOhLvQJAF</a></p>&mdash; Володимир Зеленський (@ZelenskyyUa) <a target="_blank" rel="noopener" href="https://twitter.com/ZelenskyyUa/status/1672658185641926660?ref_src=twsrc%5Etfw">June 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote>
+<p>我们都记得俄罗斯首脑在2021年是如何威胁世界的。他有一些最后通牒，他试图展示一种力量……</p>
+<p>2022年表明，他混淆了–混淆了他的幻想和他被灌输的谎言与力量。克里姆林宫的人能够诉诸任何恐怖，能够诉诸任何愚蠢，但他们不能提供哪怕是百分之一的必要控制。而他们就是问题所在。</p>
+<p>在一天之内，他们失去了他们一百多万个城市中的几个，并向所有俄罗斯土匪、雇佣兵、寡头和其他任何人展示了占领俄罗斯城市和可能的武器库有多么容易。</p>
+<p>现在，非常重要的是，世界上没有人因为害怕俄罗斯的这种混乱而保持沉默。现在领导人的所有行动都可以成为历史。记者们的每一句话都是有价值的。有必要明确指出问题的根源。而如果世界上有人试图忽视这种情况，如果世界上有人幻想克里姆林宫有能力重新获得控制权……这只能将问题推迟到下一次混乱的突破口–甚至更加危险。</p>
+<p>我们都知道解决办法。</p>
+</blockquote>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          
+          <li class="next">
+            <a href="/en/Hexo-Theme-LiveMyLife/" data-toggle="tooltip" data-placement="top" title="Hexo-Theme-LiveMyLife">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=【AI编译】纽约客：为什么俄罗斯精英们认为普京的战争注定要失败？&body=Hi,I found this website and thought you might like it http://example.com/cn/062423/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+  <!-- disqus comment start -->
+
+  <div class="comment">
+    <div id="disqus_thread" class="disqus-thread"></div>
+  </div>
+
+  <!-- disqus embedded js code start (one page only need to embed once) -->
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "sister-dew";
+    var disqus_identifier = "http://example.com/cn/062423/";
+    var disqus_url = "http://example.com/cn/062423/";
+
+    (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <!-- disqus embedded js code start end -->
+
+  <!-- disqus comment end -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%A6%82%E8%A6%81-Summary"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">概要 Summary</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%8E%9F%E6%96%87-Original-Article"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">原文 Original Article</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#You-recently-wrote-that-Putin-is-more-vulnerable-than-most-people-think-Why-is-that"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">You recently wrote that Putin is more vulnerable than most people think. Why is that?</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Putin-has-allowed-a-certain-amount-of-criticism-of-his-policies-from-what-might-be-called-his-right-the-head-of-the-Wagner-Group-pro-war-bloggers-who-want-more-ruthlessness-against-Ukraine-the-security-services-who-you-say-in-your-piece-want-a-stricter-autocracy-Why"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">Putin has allowed a certain amount of criticism of his policies from what might be called his right: the head of the Wagner Group, pro-war bloggers who want more ruthlessness against Ukraine, the security services, who you say in your piece want a stricter autocracy. Why?</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#In-March-there-emerged-what-appeared-to-be-a-leaked-phone-call-between-Russian-elites-complaining-about-Putin-You-recently-wrote-that-%E2%80%9Cthe-affair-has-underscored-two-conflicting-trends-among-Russia%E2%80%99s-elites-The-first-is-growing-alarm-and-despair-and-a-sense-that-Putin-is-leading-the-country-over-a-precipice-to-imminent-doom-The-second-is-the-rising-stock-of-the-country%E2%80%99s-repressive-apparatus-and-the-patriotic-bloc-which-is-baying-for-blood-ever-more-loudly-with-its-calls-for-purges-and-even-greater-turning-of-the-screws-%E2%80%9D-How-would-you-describe-these-blocs-and-what-they-want-How-do-they-differ-from-Putin-ideologically"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">In March, there emerged what appeared to be a leaked phone call between Russian élites complaining about Putin. You recently wrote that “the affair has underscored two conflicting trends among Russia’s élites. The first is growing alarm and despair, and a sense that Putin is leading the country over a precipice to imminent doom. The second is the rising stock of the country’s repressive apparatus and the patriotic bloc, which is baying for blood ever more loudly, with its calls for purges and even greater turning of the screws.” How would you describe these blocs and what they want? How do they differ from Putin ideologically?</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#At-least-according-to-the-limited-public-opinion-data-we-have-these-concerns-about-Putin-are-not-shared-by-the-Russian-public-Why-do-you-think-this-elite-concern-about-Putin-has-not-trickled-down-if-you-believe-that-the-surveys-are-accurate"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">At least according to the limited public-opinion data we have, these concerns about Putin are not shared by the Russian public. Why do you think this élite concern about Putin has not trickled down, if you believe that the surveys are accurate?</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#You-have-referred-to-Putin-as-%E2%80%9Cmisinformed%E2%80%9D-and-%E2%80%9Chesitant-%E2%80%9D-And-you-have-said-that-he-finds-the-current-situation-%E2%80%9Cnot-so-bad-%E2%80%9D-Elsewhere-we-have-read-about-how-isolated-he-is-Why-do-you-think-he-is-failing-to-reassure-elites-and-why-is-he-unable-to-get-good-information"><span class="toc-nav-number">2.5.</span> <span class="toc-nav-text">You have referred to Putin as “misinformed” and “hesitant.” And you have said that he finds the current situation “not so bad.” Elsewhere we have read about how isolated he is. Why do you think he is failing to reassure élites, and why is he unable to get good information?</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Can-you-talk-a-little-bit-about-how-you-gather-information-and-do-your-work"><span class="toc-nav-number">2.6.</span> <span class="toc-nav-text">Can you talk a little bit about how you gather information and do your work?</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#The-Wall-Street-Journal-recently-reported-that-sanctions-may-finally-be-hurting-the-regime-Is-that-your-sense"><span class="toc-nav-number">2.7.</span> <span class="toc-nav-text">The Wall Street Journal recently reported that sanctions may finally be hurting the regime. Is that your sense?</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#WSJ-Documentary-Inside-Prigozhin%E2%80%99s-Wagner-Russia%E2%80%99s-Secret-War-Company"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">WSJ Documentary: Inside Prigozhin’s Wagner, Russia’s Secret War Company</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#WSJ%E7%BA%AA%E5%BD%95%E7%89%87-%E3%80%8A%E7%93%A6%E6%A0%BC%E7%BA%B3%E5%92%8C%E6%99%AE%E9%87%8C%E6%88%88%E6%B4%A5%E7%9A%84%E5%89%8D%E7%94%9F%E4%BB%8A%E4%B8%96%E3%80%8B-%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%E7%89%88-%EF%BC%9A"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">WSJ纪录片 《瓦格纳和普里戈津的前生今世》| 中文字幕版 ：</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Zelenskyy-Masters-of-Russia-%E2%80%9Ccontrol-nothing%E2%80%9D"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">Zelenskyy: Masters of Russia “control nothing”</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#russia" title="russia">russia</a>
+            
+            <a class="tag" href="/tags/#ukraine" title="ukraine">ukraine</a>
+            
+            <a class="tag" href="/tags/#insurrection" title="insurrection">insurrection</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+
+		<!-- Footer (contains ThemeColor、viewer) -->
+		<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/qinip">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+            <li>
+              <a target="_blank" href="https://twitter.com/Dr_Ji_nxy">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+            <li>
+              <a target="_blank" href="https://www.instagram.com/1qoop3">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/zhiqiangji117">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Eddy Ji
+          2023
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="/js/hux-blog.min.js"></script>
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="/js/catalog.js"></script>
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="/js/totop.js"></script>
+
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://example.com/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+		<!-- Search -->
+		
+		<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+		
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
