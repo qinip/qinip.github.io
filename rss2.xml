@@ -15,8 +15,37 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Eddy Ji&#39;s blog</description>
-    <pubDate>Sat, 24 Jun 2023 23:26:09 GMT</pubDate>
+    <pubDate>Thu, 29 Jun 2023 04:12:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>聽書小記 (June 2023)</title>
+      <link>http://example.com/cn/062823/</link>
+      <guid>http://example.com/cn/062823/</guid>
+      <pubDate>Thu, 29 Jun 2023 04:12:01 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;最近常在夜間運動時聽書，非常容易專注，也倍感享受。今天邊慢跑邊聽樊登老師講述《悉達多》，竟然感動到幾乎要流淚。並不是講述者多麼聲情並茂，而是內容本身正好扣中自己對當下生活的感悟與困惑。跑完步，就決定要留住這份心情，沒有時間展開詳述，至少記下標題。爭取每個月能小結一次，最好能</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/diary/">diary</category>
+      
+      
+      <category domain="http://example.com/tags/reading/">reading</category>
+      
+      <category domain="http://example.com/tags/plan/">plan</category>
+      
+      
+      <comments>http://example.com/cn/062823/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>【AI編譯】紐約客：為什麼俄羅斯精英們認為普京的戰爭注定要失敗？</title>
