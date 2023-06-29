@@ -284,21 +284,12 @@
 
           
           
-          <li>
-            <a href="/about/">
-              
-              关于
-              
-              
-            </a>
-          </li>
-          
           
           
           <li>
-            <a href="/tags/">
+            <a href="/categories/">
               
-              标签
+              分类
               
               
             </a>
@@ -317,12 +308,21 @@
           
           
           
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
           
           
           <li>
-            <a href="/categories/">
+            <a href="/tags/">
               
-              分类
+              标签
               
               
             </a>
@@ -522,7 +522,8 @@
       樊登講書+想讀書單
     </h3>
     <div class="post-content-preview">
-      最近常在夜間運動時聽書，非常容易專注，也倍感享受。今天邊慢跑邊聽樊登老師講述《悉達多》，竟然感動到幾乎要流淚。並不是講述者多麼聲情並茂，而是內容本身正好扣中自己對當下生活的感悟與困惑。跑完步，就決定要留住這份心情，沒有時間展開詳述，至少記下標題。爭取每個月能小結一次，最好能三言兩語在書名之後加上當下的評論。對於過去的這個月，就先只留下標題吧。另外，還要在已經聽過的書單之後加一個準備閱讀完整內......
+      (Blog仍处于测试阶段。这一篇主要是测试豆瓣图书卡片插件。测试的结果是hexo-tag-book-douban和我使用的theme不合。花了一晚上换回hexo-douban-getter的标签，顺便在豆瓣上创建了一个新的书单，便于以后分享记录。)
+最近常在夜間運動時聽書，非常容易專注，也倍感享受。今天邊慢跑邊聽樊登老師講述《悉達多》，竟然感動到幾乎要流淚。並不是講述者多麼聲情並茂，而是內容......
     </div>
   </a>
   
@@ -531,6 +532,8 @@
     2023-06-29
   </p>
   <div class="tags">
+    
+    <a href="/tags/#test" title="test">test</a>
     
     <a href="/tags/#reading" title="reading">reading</a>
     
@@ -729,10 +732,6 @@ Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has be
       <li>【AI編譯】紐約客：為什麼俄羅斯精英們認為普京的戰爭注定要失敗？</li>
     </a>
     
-    <a href="../en/Hexo-Theme-LiveMyLife/">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
     <a href="5_1/">
       <li>小剥皮的枪盾阵</li>
     </a>
@@ -749,16 +748,16 @@ Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has be
 <div class="widget">
   <ul>
     
-    <a href="/categories/#文存">
-      <li>文存</li>
-    </a>
-    
     <a href="/categories/#4fun">
       <li>4fun</li>
     </a>
     
     <a href="/categories/#diary">
       <li>diary</li>
+    </a>
+    
+    <a href="/categories/#文存">
+      <li>文存</li>
     </a>
     
   </ul>
@@ -771,7 +770,7 @@ Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has be
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2023/06/">June 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2020/04/">April 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2019/05/">May 2019</a><span class="archive-list-count">1</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2023/06/">June 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2019/05/">May 2019</a><span class="archive-list-count">1</span></li></ul>
 </div>
 
 
@@ -782,6 +781,8 @@ Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has be
 <section>
   <h5><a href="/tags/">特色标签</a></h5>
   <div class="tags">
+    
+    
     
     
     
@@ -1307,5 +1308,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

@@ -284,21 +284,12 @@
 
           
           
-          <li>
-            <a href="/about/">
-              
-              ABOUT
-              
-              
-            </a>
-          </li>
-          
           
           
           <li>
-            <a href="/tags/">
+            <a href="/categories/">
               
-              TAGS
+              CATEGORIES
               
               
             </a>
@@ -317,12 +308,21 @@
           
           
           
+          <li>
+            <a href="/about/">
+              
+              ABOUT
+              
+              
+            </a>
+          </li>
+          
           
           
           <li>
-            <a href="/categories/">
+            <a href="/tags/">
               
-              CATEGORIES
+              TAGS
               
               
             </a>
@@ -515,7 +515,7 @@
 <li><p>A reliable driver, a fabulous cook, a delightful friend, a grumbling husband, and a man safe with his secrets.</p>
 </li>
 </ul>
-<img src="https://farm5.staticflickr.com/4037/4415510519_07c220367e.jpg" width="500" alt="Sunshine in the rain">
+<img src="https://farm5.staticflickr.com/4037/4415510519_07c220367e.jpg" width="500" alt="Sunshine in the rain" data-height="333">
 
 
       <!-- 如果开启评论功能 -->
@@ -649,10 +649,6 @@
       <li>【AI編譯】紐約客：為什麼俄羅斯精英們認為普京的戰爭注定要失敗？</li>
     </a>
     
-    <a href="../en/Hexo-Theme-LiveMyLife/">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
     <a href="../cn/5_1/">
       <li>小剥皮的枪盾阵</li>
     </a>
@@ -669,16 +665,16 @@
 <div class="widget">
   <ul>
     
-    <a href="/categories/#文存">
-      <li>文存</li>
-    </a>
-    
     <a href="/categories/#4fun">
       <li>4fun</li>
     </a>
     
     <a href="/categories/#diary">
       <li>diary</li>
+    </a>
+    
+    <a href="/categories/#文存">
+      <li>文存</li>
     </a>
     
   </ul>
@@ -691,7 +687,7 @@
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2023/06/">June 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2020/04/">April 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2019/05/">May 2019</a><span class="archive-list-count">1</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2023/06/">June 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2019/05/">May 2019</a><span class="archive-list-count">1</span></li></ul>
 </div>
 
 
@@ -702,6 +698,8 @@
 <section>
   <h5><a href="/tags/">FEATURED TAGS</a></h5>
   <div class="tags">
+    
+    
     
     
     
@@ -1227,5 +1225,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

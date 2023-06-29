@@ -28,7 +28,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;最近常在夜間運動時聽書，非常容易專注，也倍感享受。今天邊慢跑邊聽樊登老師講述《悉達多》，竟然感動到幾乎要流淚。並不是講述者多麼聲情並茂，而是內容本身正好扣中自己對當下生活的感悟與困惑。跑完步，就決定要留住這份心情，沒有時間展開詳述，至少記下標題。爭取每個月能小結一次，最好能</summary>
+    <summary type="html">&lt;p&gt;(Blog仍处于测试阶段。这一篇主要是测试豆瓣图书卡片插件。测试的结果是hexo-tag-book-douban和我使用的theme不合。花了一晚上换回hexo-douban-getter的标签，顺便在豆瓣上创建了一个新的书单，便于以后分享记录。)&lt;/p&gt;
+&lt;p&gt;最近常在夜</summary>
         
       
     
@@ -36,6 +37,8 @@
     
     <category term="diary" scheme="http://example.com/categories/diary/"/>
     
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
     
     <category term="reading" scheme="http://example.com/tags/reading/"/>
     
@@ -71,28 +74,6 @@
     <category term="insurrection" scheme="http://example.com/tags/insurrection/"/>
     
     <category term="by_ai" scheme="http://example.com/tags/by-ai/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-LiveMyLife</title>
-    <link href="http://example.com/en/Hexo-Theme-LiveMyLife/"/>
-    <id>http://example.com/en/Hexo-Theme-LiveMyLife/</id>
-    <published>2020-04-17T06:34:17.000Z</published>
-    <updated>2020-04-17T06:34:17.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Ported Theme of &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Hux Blog&lt;/a&gt;, Thank &lt;a</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
