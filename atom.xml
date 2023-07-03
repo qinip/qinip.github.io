@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-06-29T04:12:01.000Z</updated>
+  <updated>2023-07-03T04:32:01.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>聽書小記 (July 2023)</title>
+    <link href="http://example.com/cn/070223/"/>
+    <id>http://example.com/cn/070223/</id>
+    <published>2023-07-03T04:32:01.000Z</published>
+    <updated>2023-07-03T04:32:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;07-x2F-02-x2F-2023&quot;&gt;&lt;a href=&quot;#07-x2F-02-x2F-2023&quot; class=&quot;headerlink&quot; title=&quot;07&amp;#x2F;02&amp;#x2F;2023&quot;&gt;&lt;/a&gt;07&amp;#x2F;02&amp;#x2F;2023&lt;/h3&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    
+    
+    <category term="reading" scheme="http://example.com/tags/reading/"/>
+    
+    <category term="plan" scheme="http://example.com/tags/plan/"/>
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>聽書小記 (June 2023)</title>
@@ -28,7 +57,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;(Blog仍处于测试阶段。这一篇主要是测试豆瓣图书卡片插件。测试的结果是hexo-tag-book-douban和我使用的theme不合。花了一晚上换回hexo-douban-getter的标签，顺便在豆瓣上创建了一个新的书单，便于以后分享记录。)&lt;/p&gt;
+    <summary type="html">&lt;p&gt;(Blog仍處於測試階段。這一篇主要是測試豆瓣圖書卡片插件。測試的結果是hexo-tag-book-douban和我使用的theme不合。花了一晚上換回hexo-douban-getter的標籤，順便在豆瓣上創建了一個新的書單，便於以後分享記錄。)&lt;/p&gt;
 &lt;p&gt;最近常在夜</summary>
         
       
@@ -38,11 +67,11 @@
     <category term="diary" scheme="http://example.com/categories/diary/"/>
     
     
-    <category term="test" scheme="http://example.com/tags/test/"/>
-    
     <category term="reading" scheme="http://example.com/tags/reading/"/>
     
     <category term="plan" scheme="http://example.com/tags/plan/"/>
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
     
   </entry>
   
