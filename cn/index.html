@@ -284,12 +284,21 @@
 
           
           
-          
-          
           <li>
             <a href="/categories/">
               
               分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
               
               
             </a>
@@ -318,15 +327,6 @@
           </li>
           
           
-          
-          <li>
-            <a href="/archive/">
-              
-              归档
-              
-              
-            </a>
-          </li>
           
           
 
@@ -523,6 +523,7 @@
     </h3>
     <div class="post-content-preview">
       07/02/2023
+
     
         
         
@@ -536,7 +537,7 @@
             作者: 刘宗迪
             出版年份: 2021-11
             评分: 7.8
-  ......
+ ......
     </div>
   </a>
   
@@ -614,7 +615,9 @@
       （AI編譯，原文：Why Russian Élites Think Putin’s War Is Doomed to Fail）
 
 概要 Summary
-Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has been analyzing how Russian politics have b......
+
+
+Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has been analyzing how Russian politics have......
     </div>
   </a>
   
@@ -803,16 +806,16 @@ Tatiana Stanovaya, a senior fellow at the Carnegie Russia Eurasia Center, has be
 <div class="widget">
   <ul>
     
+    <a href="/categories/#文存">
+      <li>文存</li>
+    </a>
+    
     <a href="/categories/#diary">
       <li>diary</li>
     </a>
     
     <a href="/categories/#4fun">
       <li>4fun</li>
-    </a>
-    
-    <a href="/categories/#文存">
-      <li>文存</li>
     </a>
     
   </ul>
@@ -1363,5 +1366,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>

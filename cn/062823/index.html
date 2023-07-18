@@ -284,12 +284,21 @@
 
           
           
-          
-          
           <li>
             <a href="/categories/">
               
               分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
               
               
             </a>
@@ -318,15 +327,6 @@
           </li>
           
           
-          
-          <li>
-            <a href="/archive/">
-              
-              归档
-              
-              
-            </a>
-          </li>
           
           
 
@@ -494,7 +494,8 @@
 
         <p>(Blog仍處於測試階段。這一篇主要是測試豆瓣圖書卡片插件。測試的結果是hexo-tag-book-douban和我使用的theme不合。花了一晚上換回hexo-douban-getter的標籤，順便在豆瓣上創建了一個新的書單，便於以後分享記錄。)</p>
 <p>最近常在夜間運動時聽書，非常容易專注，也倍感享受。今天邊慢跑邊聽樊登老師講述《悉達多》，竟然感動到幾乎要流淚。並不是講述者多麼聲情並茂，而是內容本身正好扣中自己對當下生活的感悟與困惑。跑完步，就決定要留住這份心情，沒有時間展開詳述，至少記下標題。爭取每個月能小結一次，最好能三言兩語在書名之後加上當下的評論。對於過去的這個月，就先只留下標題吧。另外，還要在已經聽過的書單之後加一個準備閱讀完整內容的書單，一個月不要超過四本。</p>
-<h2 id="六月聽書記錄"><a href="#六月聽書記錄" class="headerlink" title="六月聽書記錄"></a>六月聽書記錄</h2><div class="douban-card-block">
+<h2 id="六月聽書記錄">六月聽書記錄</h2>
+<div class="douban-card-block">
     <a class="douban-card" target="_blank" rel="noopener" href="https://book.douban.com/subject/36014955">
         <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://images.weserv.nl/?url=https://img9.doubanio.com/view/subject/s/public/s34268584.jpg');">
         </div>
@@ -936,7 +937,8 @@
         </div>
     </a>
 </div>
-<h2 id="七月想讀書單"><a href="#七月想讀書單" class="headerlink" title="七月想讀書單"></a>七月想讀書單</h2><div class="douban-card-block">
+<h2 id="七月想讀書單">七月想讀書單</h2>
+<div class="douban-card-block">
     <a class="douban-card" target="_blank" rel="noopener" href="https://book.douban.com/subject/35049755">
         <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://images.weserv.nl/?url=https://img1.doubanio.com/view/subject/s/public/s33925108.jpg');">
         </div>
@@ -1076,7 +1078,8 @@
 </div>
 <p>但今天聽完悉達多深受觸動，覺得不能再成天沉溺於通俗小說了，還是要看看文學經典。（雖然羊毛戰記的人物描寫，儘管看的是中譯，還是非常有功底的。看完它就開始看Solaris吧，在最新的黑鏡裏有對它的引用。）</p>
 <hr>
-<h2 id="Extra-观影记录"><a href="#Extra-观影记录" class="headerlink" title="Extra: 观影记录"></a>Extra: 观影记录</h2><p>插件地址记录一下：<a target="_blank" rel="noopener" href="https://leay.net/2022/03/27/hexo-douban-getter/">【更新】Hexo 插件 hexo-douban-getter —— 展示豆瓣数据 | 养恐龙 (leay.net)</a> 还不能支持本地缓存，像本篇这么多书真的挺费劲~只能先删了</p>
+<h2 id="Extra-观影记录">Extra: 观影记录</h2>
+<p>插件地址记录一下：<a target="_blank" rel="noopener" href="https://leay.net/2022/03/27/hexo-douban-getter/">【更新】Hexo 插件 hexo-douban-getter —— 展示豆瓣数据 | 养恐龙 (leay.net)</a> 还不能支持本地缓存，像本篇这么多书真的挺费劲~只能先删了</p>
 <figure class="highlight twig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;%</span> <span class="name">do</span>uban <span class="string">&quot;Chewth&quot;</span> <span class="string">&quot;watchedMovies&quot;</span> <span class="number">1</span> <span class="number">1</span> h<span class="number">3</span> <span class="template-tag">%&#125;</span></span><br></pre></td></tr></table></figure>
 
 
@@ -1787,5 +1790,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
