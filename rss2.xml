@@ -15,8 +15,39 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Eddy Ji&#39;s blog</description>
-    <pubDate>Mon, 03 Jul 2023 04:32:01 GMT</pubDate>
+    <pubDate>Thu, 03 Aug 2023 01:34:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>聽書小記 (August 2023)</title>
+      <link>http://example.com/cn/080223/</link>
+      <guid>http://example.com/cn/080223/</guid>
+      <pubDate>Thu, 03 Aug 2023 01:34:22 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;聽書&quot;&gt;&lt;a href=&quot;#聽書&quot; class=&quot;headerlink&quot; title=&quot;聽書&quot;&gt;&lt;/a&gt;聽書&lt;/h2&gt;&lt;h3 id=&quot;08-x2F-02-x2F-2023&quot;&gt;&lt;a href=&quot;#08-x2F-02-x2F-2023&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/diary/">diary</category>
+      
+      
+      <category domain="http://example.com/tags/reading/">reading</category>
+      
+      <category domain="http://example.com/tags/plan/">plan</category>
+      
+      <category domain="http://example.com/tags/test/">test</category>
+      
+      
+      <comments>http://example.com/cn/080223/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>聽書小記 (July 2023)</title>
