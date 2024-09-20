@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Jousting Jester</title>
+  <icon>http://example.com/icon.png</icon>
+  <subtitle>Eddy&#39;s Playful Pursuit of Knowledge</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-03-28T22:19:19.000Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Eddy Ji</name>
+    <email>deus.dew@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Noema:AI的野性心智</title>
+    <link href="http://example.com/cn/032824/"/>
+    <id>http://example.com/cn/032824/</id>
+    <published>2024-03-28T22:19:19.000Z</published>
+    <updated>2024-03-28T22:19:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;作者：&lt;a href=&quot;https://www.noemamag.com/author/johnlast/&quot;&gt;约翰·拉斯特（John</summary>
+        
+      
+    
+    
+    
+    <category term="translation" scheme="http://example.com/categories/translation/"/>
+    
+    
+    <category term="AI" scheme="http://example.com/tags/AI/"/>
+    
+    <category term="mind" scheme="http://example.com/tags/mind/"/>
+    
+    <category term="lanugage" scheme="http://example.com/tags/lanugage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>聽書小記 (August 2023)</title>
+    <link href="http://example.com/cn/080223/"/>
+    <id>http://example.com/cn/080223/</id>
+    <published>2023-08-03T01:34:22.000Z</published>
+    <updated>2023-08-03T01:34:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;聽書&quot;&gt;&lt;a href=&quot;#聽書&quot; class=&quot;headerlink&quot; title=&quot;聽書&quot;&gt;&lt;/a&gt;聽書&lt;/h2&gt;&lt;h3 id=&quot;08-02-2023&quot;&gt;&lt;a href=&quot;#08-02-2023&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    
+    
+    <category term="reading" scheme="http://example.com/tags/reading/"/>
+    
+    <category term="plan" scheme="http://example.com/tags/plan/"/>
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>聽書小記 (July 2023)</title>
+    <link href="http://example.com/cn/070223/"/>
+    <id>http://example.com/cn/070223/</id>
+    <published>2023-07-03T04:32:01.000Z</published>
+    <updated>2023-07-03T04:32:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;07-02-2023&quot;&gt;&lt;a href=&quot;#07-02-2023&quot; class=&quot;headerlink&quot; title=&quot;07&amp;#x2F;02&amp;#x2F;2023&quot;&gt;&lt;/a&gt;07&amp;#x2F;02&amp;#x2F;2023&lt;/h3&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    
+    
+    <category term="reading" scheme="http://example.com/tags/reading/"/>
+    
+    <category term="plan" scheme="http://example.com/tags/plan/"/>
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>聽書小記 (June 2023)</title>
+    <link href="http://example.com/cn/062823/"/>
+    <id>http://example.com/cn/062823/</id>
+    <published>2023-06-29T04:12:01.000Z</published>
+    <updated>2023-06-29T04:12:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;(Blog仍處於測試階段。這一篇主要是測試豆瓣圖書卡片插件。測試的結果是hexo-tag-book-douban和我使用的theme不合。花了一晚上換回hexo-douban-getter的標籤，順便在豆瓣上創建了一個新的書單，便於以後分享記錄。)&lt;/p&gt;
+&lt;p&gt;最近常在夜</summary>
+        
+      
+    
+    
+    
+    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    
+    
+    <category term="reading" scheme="http://example.com/tags/reading/"/>
+    
+    <category term="plan" scheme="http://example.com/tags/plan/"/>
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【AI編譯】紐約客：為什麼俄羅斯精英們認為普京的戰爭注定要失敗？</title>
+    <link href="http://example.com/cn/062423/"/>
+    <id>http://example.com/cn/062423/</id>
+    <published>2023-06-24T23:26:09.000Z</published>
+    <updated>2023-06-24T23:26:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;（AI編譯，原文：&lt;a href=&quot;https://www.newyorker.com/news/q-and-a/why-russian-elites-think-putins-war-is-doomed-to-fail&quot;&gt;Why Russian Élites Think</summary>
+        
+      
+    
+    
+    
+    <category term="文存" scheme="http://example.com/categories/%E6%96%87%E5%AD%98/"/>
+    
+    
+    <category term="russia" scheme="http://example.com/tags/russia/"/>
+    
+    <category term="ukraine" scheme="http://example.com/tags/ukraine/"/>
+    
+    <category term="insurrection" scheme="http://example.com/tags/insurrection/"/>
+    
+    <category term="by_ai" scheme="http://example.com/tags/by-ai/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小剥皮的枪盾阵</title>
+    <link href="http://example.com/cn/5_1/"/>
+    <id>http://example.com/cn/5_1/</id>
+    <published>2019-05-01T07:39:00.000Z</published>
+    <updated>2019-05-01T07:39:00.000Z</updated>
+    
+    
+    <summary type="html">两军对阵，还是要遵循真实世界里冷兵器作战的规律和逻辑。那小剥皮的枪盾阵，符合这些规律和逻辑吗？</summary>
+    
+    
+    
+    <category term="4fun" scheme="http://example.com/categories/4fun/"/>
+    
+    
+    <category term="权游" scheme="http://example.com/tags/%E6%9D%83%E6%B8%B8/"/>
+    
+  </entry>
+  
+</feed>

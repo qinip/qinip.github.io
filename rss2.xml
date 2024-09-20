@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Jousting Jester</title>
+    <link>http://example.com/</link>
+    
+    <image>
+      <url>http://example.com/icon.png</url>
+      <title>The Jousting Jester</title>
+      <link>http://example.com/</link>
+    </image>
+    
+    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>Eddy Ji&#39;s blog</description>
+    <pubDate>Thu, 28 Mar 2024 22:19:19 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Noema:AI的野性心智</title>
+      <link>http://example.com/cn/032824/</link>
+      <guid>http://example.com/cn/032824/</guid>
+      <pubDate>Thu, 28 Mar 2024 22:19:19 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;作者：&lt;a href=&quot;https://www.noemamag.com/author/johnlast/&quot;&gt;约翰·拉斯特（John</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/translation/">translation</category>
+      
+      
+      <category domain="http://example.com/tags/AI/">AI</category>
+      
+      <category domain="http://example.com/tags/mind/">mind</category>
+      
+      <category domain="http://example.com/tags/lanugage/">lanugage</category>
+      
+      
+      <comments>http://example.com/cn/032824/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>聽書小記 (August 2023)</title>
+      <link>http://example.com/cn/080223/</link>
+      <guid>http://example.com/cn/080223/</guid>
+      <pubDate>Thu, 03 Aug 2023 01:34:22 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;聽書&quot;&gt;&lt;a href=&quot;#聽書&quot; class=&quot;headerlink&quot; title=&quot;聽書&quot;&gt;&lt;/a&gt;聽書&lt;/h2&gt;&lt;h3 id=&quot;08-02-2023&quot;&gt;&lt;a href=&quot;#08-02-2023&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/diary/">diary</category>
+      
+      
+      <category domain="http://example.com/tags/reading/">reading</category>
+      
+      <category domain="http://example.com/tags/plan/">plan</category>
+      
+      <category domain="http://example.com/tags/test/">test</category>
+      
+      
+      <comments>http://example.com/cn/080223/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>聽書小記 (July 2023)</title>
+      <link>http://example.com/cn/070223/</link>
+      <guid>http://example.com/cn/070223/</guid>
+      <pubDate>Mon, 03 Jul 2023 04:32:01 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;07-02-2023&quot;&gt;&lt;a href=&quot;#07-02-2023&quot; class=&quot;headerlink&quot; title=&quot;07&amp;#x2F;02&amp;#x2F;2023&quot;&gt;&lt;/a&gt;07&amp;#x2F;02&amp;#x2F;2023&lt;/h3&gt;&lt;div</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/diary/">diary</category>
+      
+      
+      <category domain="http://example.com/tags/reading/">reading</category>
+      
+      <category domain="http://example.com/tags/plan/">plan</category>
+      
+      <category domain="http://example.com/tags/test/">test</category>
+      
+      
+      <comments>http://example.com/cn/070223/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>聽書小記 (June 2023)</title>
+      <link>http://example.com/cn/062823/</link>
+      <guid>http://example.com/cn/062823/</guid>
+      <pubDate>Thu, 29 Jun 2023 04:12:01 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;(Blog仍處於測試階段。這一篇主要是測試豆瓣圖書卡片插件。測試的結果是hexo-tag-book-douban和我使用的theme不合。花了一晚上換回hexo-douban-getter的標籤，順便在豆瓣上創建了一個新的書單，便於以後分享記錄。)&lt;/p&gt;
+&lt;p&gt;最近常在夜</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/diary/">diary</category>
+      
+      
+      <category domain="http://example.com/tags/reading/">reading</category>
+      
+      <category domain="http://example.com/tags/plan/">plan</category>
+      
+      <category domain="http://example.com/tags/test/">test</category>
+      
+      
+      <comments>http://example.com/cn/062823/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>【AI編譯】紐約客：為什麼俄羅斯精英們認為普京的戰爭注定要失敗？</title>
+      <link>http://example.com/cn/062423/</link>
+      <guid>http://example.com/cn/062423/</guid>
+      <pubDate>Sat, 24 Jun 2023 23:26:09 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;（AI編譯，原文：&lt;a href=&quot;https://www.newyorker.com/news/q-and-a/why-russian-elites-think-putins-war-is-doomed-to-fail&quot;&gt;Why Russian Élites Think</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/%E6%96%87%E5%AD%98/">文存</category>
+      
+      
+      <category domain="http://example.com/tags/russia/">russia</category>
+      
+      <category domain="http://example.com/tags/ukraine/">ukraine</category>
+      
+      <category domain="http://example.com/tags/insurrection/">insurrection</category>
+      
+      <category domain="http://example.com/tags/by-ai/">by_ai</category>
+      
+      
+      <comments>http://example.com/cn/062423/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>小剥皮的枪盾阵</title>
+      <link>http://example.com/cn/5_1/</link>
+      <guid>http://example.com/cn/5_1/</guid>
+      <pubDate>Wed, 01 May 2019 07:39:00 GMT</pubDate>
+      
+      <description>两军对阵，还是要遵循真实世界里冷兵器作战的规律和逻辑。那小剥皮的枪盾阵，符合这些规律和逻辑吗？</description>
+      
+      
+      
+      
+      <category domain="http://example.com/categories/4fun/">4fun</category>
+      
+      
+      <category domain="http://example.com/tags/%E6%9D%83%E6%B8%B8/">权游</category>
+      
+      
+      <comments>http://example.com/cn/5_1/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
